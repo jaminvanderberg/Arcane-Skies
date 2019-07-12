@@ -1,0 +1,12 @@
+setIcon(<mysticalagriculture:chunk, meta:6>)
+setTitle("Mob chunk")
+setDescription("Kill mobs with a soulium dagger to get mob chunks.")
+
+addParent("triumph:mystical/soulium_dagger")
+setPos(-463,56)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Mob chunk", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:chunk>)

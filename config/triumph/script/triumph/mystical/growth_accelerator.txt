@@ -1,0 +1,12 @@
+setIcon(<mysticalagriculture:growth_accelerator>)
+setTitle("Growth accelerator")
+setDescription("Craft a growth accelerator.")
+
+addParent("triumph:mystical/root")
+setPos(-639,122)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Mob chunk", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:growth_accelerator>)

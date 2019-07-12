@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:blood_orb, nbt:{orb:"bloodmagic:apprentice"}>)
+setTitle("Apprentice blood orb")
+setDescription("Craft an apprentice blood orb.")
+
+addParent("triumph:bloodmagic/blank_rune")
+setPos(-1020,-135)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasBlankRunes", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:blood_orb, nbt:{orb:"bloodmagic:apprentice"}>);

@@ -1,0 +1,15 @@
+setIcon(<bloodmagic:slate, meta:3>)
+setTitle("Demonic slate")
+setDescription("Craft demonic slate.")
+
+addParent("triumph:bloodmagic/bloodstone")
+setPos(-1058,-59)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_shard")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasDemonicSlate", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:slate, meta:3>);

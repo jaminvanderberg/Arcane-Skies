@@ -1,0 +1,15 @@
+setIcon(<bloodmagic:blood_orb, nbt:{orb:"bloodmagic:weak"}>)
+setTitle("Weak blood orb")
+setDescription("Craft a weak blood orb.")
+
+addParent("triumph:bloodmagic/blank_slate")
+setPos(-1020,-173)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/blood_magic")
+
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasWeekBloodOrb", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:blood_orb, nbt:{orb:"bloodmagic:weak"}>);

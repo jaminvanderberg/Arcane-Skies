@@ -1,0 +1,12 @@
+setIcon(<storagedrawers:controller>)
+setTitle("Drawer controller")
+setDescription("Craft a drawer controller")
+
+addParent("triumph:storage/root")
+setPos(-25,30)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Compacting Drawer", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:controller>)

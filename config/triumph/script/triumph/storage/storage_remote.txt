@@ -1,0 +1,12 @@
+setIcon(<storagenetwork:remote, meta:0>)
+setTitle("Storage remote")
+setDescription("Craft a storage remote.\n\nLink it to a network by right clicking with it on a storage network master.")
+
+addParent("triumph:storage/storage_network")
+setPos(138,148)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Storage remote", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:remote, meta:0>)

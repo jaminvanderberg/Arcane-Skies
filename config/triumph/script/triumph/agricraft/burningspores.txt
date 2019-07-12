@@ -1,0 +1,13 @@
+setIcon(<agricraft:agri_seed, meta:0, nbt:{"agri_analyzed":1,"agri_seed":"resource:nitorwart_plant","agri_strength":10,"agri_gain":10,"agri_growth":10}>)
+setTitle("Burning spores")
+setDescription("Mutate red seeds and carrots seeds to create burning spores.")
+
+addParent("triumph:agricraft/aurigold")
+setPos(-231,91)
+setAnnounceToChat(false)
+visibleIf("triumph:agricraft/root")
+
+//hideLines()
+
+criteria = addCriteria("hasBurning", "minecraft:inventory_changed")
+criteria.addItem(<agricraft:agri_seed, meta:0, nbt:{"agri_seed":"resource:nitorwart_plant"}>)

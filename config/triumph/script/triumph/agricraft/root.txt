@@ -1,0 +1,14 @@
+setIcon(<agricraft:crop_sticks>)
+setTitle("Agricraft")
+setDescription("If you are unfamiliar with Agricraft, please read the following steps, read in-game book 'Agricultural Journal', and check the internet for more information.")
+setBackground("minecraft:textures/blocks/farmland_wet.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+pageVisibleIf("triumph:begin/cropsticks")
+
+setPos(-497,53)
+
+setFrameType("GOAL")
+criteria = addCriteria("agricraft", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:begin/cropsticks")

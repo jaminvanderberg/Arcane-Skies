@@ -1,0 +1,15 @@
+setIcon(<thaumcraft:ingot, meta:1>)
+setTitle("Void metal")
+setDescription("Craft a void metal ingot.")
+
+addParent("triumph:thaumcraft/crimson_portal")
+setPos(-967,-206)
+//hideLines()
+setFrameType("CHALLENGE")
+visibleIf("triumph:magic/thaumcraft")
+alwaysHidden()
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("hasVoidMetal", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:ingot, meta:1>);

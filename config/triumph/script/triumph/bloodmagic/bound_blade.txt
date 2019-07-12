@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:bound_sword>)
+setTitle("Bound blade")
+setDescription("Craft a bound blade.")
+
+addParent("triumph:bloodmagic/ashes")
+setPos(-906,-135)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasBoundSword", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:bound_sword>);

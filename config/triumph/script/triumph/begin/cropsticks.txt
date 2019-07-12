@@ -1,0 +1,15 @@
+setIcon(<agricraft:crop_sticks>)
+setTitle("Stick it to the man")
+setDescription("Craft crop sticks.")
+
+addParent("triumph:begin/floral")
+setPos(175,70)
+hideLines()
+setFrameType("CHALLENGE")
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("hasCropSticks", "minecraft:inventory_changed")
+criteria.addItem(<agricraft:crop_sticks>)
+
+setRewardItem(<agricraft:journal>)

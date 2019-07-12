@@ -1,0 +1,14 @@
+setIcon(<astralsorcery:itemsextant>)
+setTitle("Sextant")
+setDescription("Craft a sextant to show you how to make altars for higher tier crating tables.")
+
+addParent("triumph:astral/luminous")
+setPos(127,60)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Sextant", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:itemsextant>);

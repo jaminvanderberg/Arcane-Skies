@@ -1,0 +1,15 @@
+setIcon(<thaumcraft:thaumonomicon>)
+setTitle("Thaumonomicon")
+setDescription("Follow the in-game guides to craft a Thaumonomicon.")
+
+addParent("triumph:thaumcraft/salis_mundus")
+setPos(-1115,-206)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/thaumcraft")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Thaumonomicon", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:thaumonomicon>);

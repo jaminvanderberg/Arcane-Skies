@@ -1,0 +1,13 @@
+
+setIcon(<ceramics:clay_bucket, nbt:{"fluids":{"FluidName":"water","Amount":1000}}>)
+setTitle("Wet your whistle")
+setDescription("Craft a clay bucket and fill it with water.")
+
+addParent("triumph:begin/clay")
+setPos(126,88)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("hasWaterBucket", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:clay_bucket, nbt:{"fluids":{"FluidName":"water","Amount":1000}}>)

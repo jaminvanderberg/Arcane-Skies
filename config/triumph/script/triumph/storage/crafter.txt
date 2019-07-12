@@ -1,0 +1,12 @@
+setIcon(<extrautils2:crafter>)
+setTitle("Mechanical crafter")
+setDescription("Craft a mechanical crafter.")
+
+addParent("triumph:storage/root")
+setPos(22,98)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Mechanical crafter", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:crafter>)

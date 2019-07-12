@@ -1,0 +1,13 @@
+setIcon(<botania:lexicon>)
+setTitle("Botania")
+setDescription("Using Botania to create additional resources.")
+setBackground("botania:textures/blocks/livingwood0.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+setPos(-414,63)
+
+setFrameType("GOAL")
+criteria = addCriteria("botania", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:begin/floral")

@@ -1,0 +1,13 @@
+setIcon(<astralsorcery:blockritualpedestal>)
+setTitle("Picking up good vibrations")
+setDescription("Drop a crystal onto the attunement altar to attune it to a constellation.")
+
+addParent("triumph:astral/attune_self")
+setPos(348,27)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Attune Crystal", "astralsorcery:attune_crystal")

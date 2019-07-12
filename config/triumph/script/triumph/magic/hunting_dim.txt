@@ -1,0 +1,15 @@
+setIcon(<huntingdim:frame>)
+setTitle("To the hunt!")
+setDescription("Create a portal or craft a hunting dimension cake to enter the Hunting Dimension.")
+
+addParent("triumph:magic/root")
+setPos(-1228,-206)
+hideLines()
+//setFrameType("CHALLENGE")
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("enterHuntingDim", "minecraft:location")
+criteria.setDimID(28885);

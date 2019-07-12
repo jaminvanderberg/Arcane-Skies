@@ -1,0 +1,12 @@
+setIcon(<agricraft:seed_analyzer>)
+setTitle("Analyze this")
+setDescription("Craft a seed analyzer.")
+
+addParent("triumph:agricraft/root")
+setPos(-497,91)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("craftedAnalzer", "triumph:player_crafted_item")
+criteria.setItem(<agricraft:seed_analyzer>)

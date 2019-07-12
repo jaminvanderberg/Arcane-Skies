@@ -1,0 +1,12 @@
+setIcon(<quantumstorage:quantum_storage_unit>)
+setTitle("Quantum storage unit")
+setDescription("Craft a quantum storage unit.")
+
+addParent("triumph:storage/root")
+setPos(-58,148)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Quantum storage unit", "minecraft:inventory_changed")
+criteria.addItem(<quantumstorage:quantum_storage_unit>)

@@ -1,0 +1,14 @@
+setIcon(<exnihilocreatio:block_crucible>)
+setTitle("Crucible")
+setDescription("Craft a crucible to generate lava.")
+
+addParent("triumph:begin/floral")
+setPos(-70,131)
+hideLines()
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasCrucible", "minecraft:inventory_changed")
+criteria.addItem(<exnihilocreatio:block_crucible>)

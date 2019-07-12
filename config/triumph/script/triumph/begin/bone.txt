@@ -1,0 +1,14 @@
+setIcon(<minecraft:dye, meta:15>)
+setTitle("Insert bone joke here")
+setDescription("Sieve dust to get bonemeal.")
+
+addParent("triumph:begin/dust")
+
+setPos(126,50)
+//alwaysVisible()
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("hasBonemeal", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:dye, meta:15>)

@@ -1,0 +1,12 @@
+setIcon(<botania:manaresource, meta:21>)
+setTitle("Pound dirt")
+setDescription("Shift+Right Click on a grass or dirt block with an empty hand to obtain pebbles.")
+
+addParent("triumph:begin/root")
+setPos(-107,67)
+hideLines()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasPebble", "minecraft:inventory_changed")
+criteria.addItem(<botania:manaresource, meta:21>)

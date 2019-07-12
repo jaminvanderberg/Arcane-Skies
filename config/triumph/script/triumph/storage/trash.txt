@@ -1,0 +1,12 @@
+setIcon(<extrautils2:trashcan>)
+setTitle("I threw it on the ground!")
+setDescription("Craft a trash can.")
+
+addParent("triumph:storage/root")
+setPos(22,61)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Trash can", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:trashcan>)

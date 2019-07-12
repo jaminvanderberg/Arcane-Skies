@@ -1,0 +1,14 @@
+setIcon(<avaritia:neutronium_compressor>)
+setTitle("Neutronium compressor")
+setDescription("Craft a neutronium compressor.")
+
+addParent("triumph:avaritia/neutronium")
+setPos(-1101,-159)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/avaritia")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Neutronium compressor", "minecraft:inventory_changed")
+criteria.addItem(<avaritia:neutronium_compressor>);

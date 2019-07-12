@@ -1,0 +1,15 @@
+setIcon(<thaumcraft:salis_mundus>)
+setTitle("Salis Mundus")
+setDescription("Craft salis mundus.")
+
+addParent("triumph:thaumcraft/root")
+setPos(-1152,-206)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/thaumcraft")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Salis", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:salis_mundus>);

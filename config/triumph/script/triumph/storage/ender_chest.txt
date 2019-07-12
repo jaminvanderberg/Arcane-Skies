@@ -1,0 +1,12 @@
+setIcon(<enderstorage:ender_storage, meta:0>)
+setTitle("Ender chest")
+setDescription("Craft an ender chest.")
+
+addParent("triumph:storage/root")
+setPos(22,135)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Ender chest", "minecraft:inventory_changed")
+criteria.addItem(<enderstorage:ender_storage>)

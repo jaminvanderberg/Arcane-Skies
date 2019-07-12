@@ -1,0 +1,14 @@
+setIcon(<bettershears:stone_shears>)
+setTitle("Shear Delight")
+setDescription("Craft stone shears to collect leaves.")
+
+addParent("triumph:begin/cobble")
+
+setPos(-34,67)
+alwaysVisible()
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("craftedShears", "triumph:player_crafted_item")
+criteria.setItem(<bettershears:stone_shears>)

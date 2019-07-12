@@ -1,0 +1,14 @@
+setIcon(<astralsorcery:blockcustomore, meta:1>)
+setTitle("Starmetal")
+setDescription("Transmute iron ore into starmetal ore by link a floating crystal to it.")
+
+addParent("triumph:astral/floating")
+setPos(94,-6)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Starmetal Ore", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:blockcustomore, meta:1>);

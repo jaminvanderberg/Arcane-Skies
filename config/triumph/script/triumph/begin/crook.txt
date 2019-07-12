@@ -1,0 +1,14 @@
+setIcon(<exnihilocreatio:crook_wood>)
+setTitle("Is it crooked?")
+setDescription("Craft a crook.")
+
+addParent("triumph:begin/root")
+
+setPos(-107,30)
+alwaysVisible()
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("hasCrook", "minecraft:inventory_changed")
+criteria.addItem(<ore:crook>)

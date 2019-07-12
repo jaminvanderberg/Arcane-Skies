@@ -1,0 +1,12 @@
+setIcon(<botania:livingwood>)
+setTitle("Living Wood")
+setDescription("Plant the pure daisy and place logs around it to create living wood.")
+
+addParent("triumph:botania/puredaisy")
+setPos(-259,32)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("hasLiving", "minecraft:inventory_changed")
+criteria.addItem(<botania:livingwood>)

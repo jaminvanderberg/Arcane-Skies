@@ -1,0 +1,12 @@
+setIcon(<storagedrawers:drawer_key>)
+setTitle("Drawer key")
+setDescription("Craft a cdrawer key")
+
+addParent("triumph:storage/root")
+setPos(-91,63)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Drawer key", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:drawer_key>)

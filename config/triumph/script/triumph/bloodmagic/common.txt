@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:soul_gem, meta:2>)
+setTitle("Common tartaric gem")
+setDescription("Craft a common tartaric gem.")
+
+addParent("triumph:bloodmagic/lesser")
+setPos(-944,-211)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/imbued_slate")
+visibleIf("triumph:bloodmagic/magician_blood_orb")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasCommon", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:soul_gem, meta:2>);

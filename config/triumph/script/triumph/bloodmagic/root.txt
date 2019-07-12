@@ -1,0 +1,15 @@
+setIcon(<bloodmagic:altar>)
+setTitle("Blood Magic")
+setDescription("Your path to becoming an alchemical wizard.")
+setBackground("bloodmagic:textures/blocks/bloodstonebrick.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+pageVisibleIf("triumph:magic/blood_magic")
+visibleIf("triumph:magic/blood_magic")
+
+setPos(-1177,-211)
+
+setFrameType("GOAL")
+criteria = addCriteria("botania", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:magic/blood_magic")

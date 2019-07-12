@@ -1,0 +1,14 @@
+setIcon(<mysticalagriculture:crafting, meta:4>)
+setTitle("Supremium")
+setDescription("Craft supremium.")
+
+addParent("triumph:mystical/root")
+setPos(-589,123)
+setAnnounceToChat(false)
+
+setFrameType("CHALLENGE")
+
+hideLines()
+
+criteria = addCriteria("Supremium", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:crafting, meta:4>)

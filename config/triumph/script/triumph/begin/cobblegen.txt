@@ -1,0 +1,14 @@
+setIcon(<tp:cobblegen_block>)
+setTitle("Cobble it together")
+setDescription("Craft a cobblestone generator.")
+
+addParent("triumph:begin/floral")
+setPos(-4,131)
+setAnnounceToChat(false)
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+hideLines()
+
+criteria = addCriteria("hasCobblegen", "minecraft:inventory_changed")
+criteria.addItem(<tp:cobblegen_block>)

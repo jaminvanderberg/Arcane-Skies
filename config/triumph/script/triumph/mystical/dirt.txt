@@ -1,0 +1,12 @@
+setIcon(<mysticalagriculture:dirt_essence>)
+setTitle("Dirt essence")
+setDescription("Craft dirt seeds to obtain dirt essence.")
+
+addParent("triumph:mystical/prosperity")
+setPos(-639,74)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Dirt essence", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:dirt_essence>)

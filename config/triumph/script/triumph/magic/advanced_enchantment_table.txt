@@ -1,0 +1,15 @@
+setIcon(<eplus:advanced_table>)
+setTitle("Advanced enchantment table")
+setDescription("Craft an advanced enchantment table.\n\nYou will likely need an experience farm in order to use it effectively.");
+
+addParent("triumph:magic/root")
+setPos(-1189,-151)
+hideLines()
+//setFrameType("CHALLENGE")
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("Advanced enchantment table", "minecraft:inventory_changed")
+criteria.addItem(<eplus:advanced_table>);

@@ -1,0 +1,12 @@
+setIcon(<storagenetwork:request>)
+setTitle("Storage request table")
+setDescription("Craft a storage request table.\n\nConnect the table to upir storage network master with storage cable. You can then use it to request and craft items.")
+
+addParent("triumph:storage/storage_network")
+setPos(138,115)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Storage request table", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:request>)

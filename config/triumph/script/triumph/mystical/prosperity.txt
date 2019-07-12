@@ -1,0 +1,12 @@
+setIcon(<mysticalagriculture:crafting, meta:5>)
+setTitle("Prosperity shard")
+setDescription("Craft inferium apples and infuse them in a mana pool to create prosperity shards.")
+
+addParent("triumph:mystical/root")
+setPos(-672,56)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Prosperity shard", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:crafting, meta:5>)

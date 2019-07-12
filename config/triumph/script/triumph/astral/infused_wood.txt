@@ -1,0 +1,14 @@
+setIcon(<astralsorcery:blockinfusedwood>)
+setTitle("Infused wood")
+setDescription("Place oak wood into a pool of liquid starlight to create infused wood.")
+
+addParent("triumph:astral/liquid_starlight")
+setPos(160,70)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasInfusedWood", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:blockinfusedwood>);

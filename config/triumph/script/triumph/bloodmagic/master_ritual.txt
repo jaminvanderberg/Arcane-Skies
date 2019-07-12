@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:ritual_controller, meta:0>)
+setTitle("Master ritual stone")
+setDescription("Craft a master ritual stone.")
+
+addParent("triumph:bloodmagic/ritual")
+setPos(-944,-97)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/imbued_slate")
+visibleIf("triumph:bloodmagic/magician_blood_orb")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasMasterRitual", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:ritual_controller, meta:0>);

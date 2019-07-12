@@ -1,0 +1,12 @@
+setIcon(<minecraft:grass>)
+setTitle("Creation from Nothing")
+setDescription("Getting started with Ex Nihilo to create basic resources.")
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+setPos(-144,30)
+
+setFrameType("GOAL")
+addCriteria("location", "minecraft:location")

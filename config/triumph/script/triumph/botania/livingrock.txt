@@ -1,0 +1,13 @@
+setIcon(<botania:livingrock>)
+setTitle("Living Rock")
+setDescription("Place stone around a pure daisy to create living rock.")
+
+addParent("triumph:botania/puredaisy")
+setPos(-259,63)
+setAnnounceToChat(false)
+visibleIf("triumph:botania/root")
+
+//hideLines()
+
+criteria = addCriteria("hasLivingRock", "minecraft:inventory_changed")
+criteria.addItem(<botania:livingrock>)

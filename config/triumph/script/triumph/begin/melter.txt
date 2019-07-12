@@ -1,0 +1,14 @@
+setIcon(<tcomplement:melter>)
+setTitle("Melt it down")
+setDescription("Craft a smeltery or a melter as a early means of ore doubling.")
+
+addParent("triumph:begin/floral")
+setPos(-37,131)
+hideLines()
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("craftedMelter", "triumph:player_crafted_item")
+criteria.setItem(<ore:machineMelter>)

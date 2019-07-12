@@ -1,0 +1,12 @@
+setIcon(<mysticalagriculture:fire_essence>)
+setTitle("Fire essence")
+setDescription("Craft fire seeds to obtain fire essence.")
+
+addParent("triumph:mystical/prosperity")
+setPos(-605,74)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Fire essence", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:fire_essence>)

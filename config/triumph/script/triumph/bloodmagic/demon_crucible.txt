@@ -1,0 +1,19 @@
+setIcon(<bloodmagic:demon_crystallizer>)
+setTitle("Demonic Crystalization")
+setDescription("Craft a demon crucible and a demon crystallizer.")
+
+addParent("triumph:bloodmagic/common")
+setPos(-982,-173)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Demon Crucible", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:demon_crucible>);
+
+criteria2 = addCriteria("Demon Crystallizer", "minecraft:inventory_changed")
+criteria2.addItem(<bloodmagic:demon_crystallizer>);

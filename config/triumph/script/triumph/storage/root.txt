@@ -1,0 +1,12 @@
+setIcon(<minecraft:chest>)
+setTitle("Storage and Logistics")
+setDescription("Ideas on where to put all your stuff, and how to move it around.")
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+setPos(22,23)
+
+setFrameType("GOAL")
+addCriteria("location", "minecraft:location")

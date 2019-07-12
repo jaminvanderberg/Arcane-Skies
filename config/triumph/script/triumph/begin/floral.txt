@@ -1,0 +1,15 @@
+setIcon(<botania:fertilizer>)
+setTitle("Botanical Wonders")
+setDescription("Craft floral fertilizer.")
+
+addParent("triumph:begin/flowers")
+addParent("triumph:begin/bone")
+
+setPos(175,30)
+
+setFrameType("CHALLENGE")
+
+//hideLines()
+
+criteria = addCriteria("hasFloral", "minecraft:inventory_changed")
+criteria.addItem(<botania:fertilizer>)

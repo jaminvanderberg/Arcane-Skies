@@ -1,0 +1,13 @@
+setIcon(<tp:watering_can>)
+setTitle("Watering can")
+setDescription("Craft a watering can.\nWatering will dramatic decrease growth and mutation times.\n\nThis will count any type of watering can, but the Extra Utilities watering can must be filled in order to count.")
+
+addParent("triumph:agricraft/analyzer")
+setPos(-459,91)
+setAnnounceToChat(false)
+visibleIf("triumph:agricraft/root")
+
+//hideLines()
+
+criteria = addCriteria("hasWateringCan", "minecraft:inventory_changed")
+criteria.addItem(<ore:itemWateringCan>)

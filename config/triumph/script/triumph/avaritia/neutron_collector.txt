@@ -1,0 +1,14 @@
+setIcon(<avaritia:neutron_collector>)
+setTitle("Neutron collector")
+setDescription("Craft a neutron collector.")
+
+addParent("triumph:avaritia/root")
+setPos(-1173,-159)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/avaritia")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Neutron collector", "minecraft:inventory_changed")
+criteria.addItem(<avaritia:neutron_collector>);

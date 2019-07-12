@@ -1,0 +1,12 @@
+setIcon(<mysticalagriculture:water_essence>)
+setTitle("Water essence")
+setDescription("Craft water seeds to obtain water essence.")
+
+addParent("triumph:mystical/prosperity")
+setPos(-605,39)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Water essence", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:water_essence>)

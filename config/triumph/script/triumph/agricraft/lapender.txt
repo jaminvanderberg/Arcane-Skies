@@ -1,0 +1,13 @@
+setIcon(<agricraft:agri_seed, meta:0, nbt:{"agri_analyzed":1,"agri_seed":"resource:lapender_plant","agri_strength":10,"agri_gain":10,"agri_growth":10}>)
+setTitle("Lapender seeds")
+setDescription("Mutate ferranum and potato seeds to create lapender seeds.")
+
+addParent("triumph:agricraft/lapisore")
+setPos(-345,91)
+setAnnounceToChat(false)
+visibleIf("triumph:agricraft/root")
+
+//hideLines()
+
+criteria = addCriteria("hasLapender", "minecraft:inventory_changed")
+criteria.addItem(<agricraft:agri_seed, meta:0, nbt:{"agri_seed":"resource:lapender_plant"}>)

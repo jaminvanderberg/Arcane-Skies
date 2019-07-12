@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:item_demon_crystal>)
+setTitle("Demon Will Crystal")
+setDescription("Place the demon crucible and crystallizer in the same chunk.\nPlace a tartaric gem or demon will into the crucible to drain the will into the chunk.\nThe demon crystallizer will use this will to create demon crystals.\nHarvest them with a pickaxe.")
+
+addParent("triumph:bloodmagic/demon_crucible")
+setPos(-944,-173)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasDemonCrystal", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:item_demon_crystal>);

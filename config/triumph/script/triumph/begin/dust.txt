@@ -1,0 +1,15 @@
+setIcon(<exnihilocreatio:block_dust>)
+setTitle("Dust it off")
+setDescription("Use a hammer on cobblestone to make gravel, gravel to make sand, and sand to make dust.")
+
+addParent("triumph:begin/sieve")
+addParent("triumph:begin/hammer")
+
+setPos(88,50)
+alwaysVisible()
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("hasDust", "minecraft:inventory_changed")
+criteria.addItem(<exnihilocreatio:block_dust>)

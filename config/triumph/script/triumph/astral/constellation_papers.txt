@@ -1,0 +1,14 @@
+setIcon(<astralsorcery:itemconstellationpaper>)
+setTitle("Constellation papers")
+setDescription("Craft constellation papers.\n\nNOTE: JEI improperly lists the recipes as all being the same. Instead, right click on the iridescent altar in JEI to get the proper recipes for the different constellation papers.")
+
+addParent("triumph:tier4altar")
+setPos(255,27)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Constellation papers", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:itemconstellationpaper>);

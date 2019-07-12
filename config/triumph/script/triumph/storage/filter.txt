@@ -1,0 +1,12 @@
+setIcon(<extrautils2:filter>)
+setTitle("Filter")
+setDescription("Craft a filter.")
+
+addParent("triumph:storage/root")
+setPos(171,30)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Filter", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:filter>)

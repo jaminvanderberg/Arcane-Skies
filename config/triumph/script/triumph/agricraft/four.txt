@@ -1,0 +1,13 @@
+setIcon(<agricraft:trowel>)
+setTitle("Tips")
+setDescription("Cross-crops work best if there are four valid parent, not just two.\nPlanting crops in a plus shape with the cross-crop in the middle is a good strategy.\n")
+
+setShowToast(false)
+setAnnounceToChat(false)
+setParent("triumph:agricraft/three")
+visibleIf("triumph:agricraft/root")
+
+setPos(-345,53)
+
+criteria = addCriteria("agricraft", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:begin/cropsticks")

@@ -1,0 +1,18 @@
+setIcon(<agricraft:sprinkler>)
+setTitle("Irrigation system")
+setDescription("Craft a water tank, irrigation channel, and a sprinkler to set up an irrigation system.")
+
+addParent("triumph:agricraft/root")
+setPos(-471,136)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("hasWaterTank", "minecraft:inventory_changed")
+criteria.addItem(<agricraft:water_tank>)
+
+criteria2 = addCriteria("hasWaterChannel", "minecraft:inventory_changed")
+criteria2.addItem(<agricraft:water_channel_normal>)
+
+criteria3 = addCriteria("hasSprinkler", "minecraft:inventory_changed")
+criteria3.addItem(<agricraft:sprinkler>)

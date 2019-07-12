@@ -1,0 +1,17 @@
+setIcon(<astralsorcery:blockaltar, meta:0>)
+setTitle("Luminous crafting table")
+setDescription("Place the floating crystal above a crafting table and use the linking tool to link the crystal to the crafting table.\n\nWhile it is nighttime, craft a luminous crafting table and a resonating wand.")
+
+addParent("triumph:astral/floating")
+setPos(61,27)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Luminous crafting table", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:blockaltar, meta:0>);
+
+criteria2 = addCriteria("Resonating wand", "minecraft:inventory_changed")
+criteria2.addItem(<astralsorcery:itemwand>);

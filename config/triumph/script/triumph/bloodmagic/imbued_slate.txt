@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:slate, meta:2>)
+setTitle("Imbued slate")
+setDescription("Craft imbued slate.")
+
+addParent("triumph:bloodmagic/reinforced_slate")
+setPos(-1058,-97)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasImbuedSlate", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:slate, meta:2>);

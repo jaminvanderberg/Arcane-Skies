@@ -1,0 +1,12 @@
+setIcon(<storagedrawers:upgrade_storage, meta:4>)
+setTitle("Emerald storage upgrade")
+setDescription("Craft a storage upgrade (V).")
+
+addParent("triumph:storage/upgrade_template")
+setPos(-25,63)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Storage upgrade (V)", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:upgrade_storage, meta:4>)

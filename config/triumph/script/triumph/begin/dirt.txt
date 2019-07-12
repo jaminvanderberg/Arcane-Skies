@@ -1,0 +1,14 @@
+setIcon(<minecraft:dirt>)
+setTitle("Get dirty")
+setDescription("Compost organic material in the barrel to create dirt.")
+
+addParent("triumph:begin/barrel")
+
+setPos(50,50)
+alwaysVisible()
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("hasDirt", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:dirt>)

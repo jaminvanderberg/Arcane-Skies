@@ -1,0 +1,15 @@
+setIcon(<minecraft:wheat_seeds>)
+setTitle("Seeds of success")
+setDescription("Sieve dirt to get seeds.")
+
+addParent("triumph:begin/dirt")
+addParent("triumph:begin/sieve")
+
+setPos(88,12)
+alwaysVisible()
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("hasSeeds", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wheat_seeds>)

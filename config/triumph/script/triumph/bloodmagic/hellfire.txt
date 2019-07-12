@@ -1,0 +1,14 @@
+setIcon(<bloodmagic:soul_forge>)
+setTitle("Hellfire forge")
+setDescription("Craft a hellfire forge.")
+
+addParent("triumph:bloodmagic/demonicwill")
+setPos(-1096,-211)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/blood_magic")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasHellfire", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:soul_forge>);

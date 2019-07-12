@@ -1,0 +1,14 @@
+setIcon(<bonsaitrees:bonsaipot, meta:1>)
+setTitle("Hopping bonsai pot")
+setDescription("Craft a hopping bonsai pot to help grow trees.")
+
+addParent("triumph:begin/root")
+setPos(96,131)
+hideLines()
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasBonsaiPot", "minecraft:inventory_changed")
+criteria.addItem(<bonsaitrees:bonsaipot, meta:1>)

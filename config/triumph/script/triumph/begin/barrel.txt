@@ -1,0 +1,14 @@
+setIcon(<exnihilocreatio:block_barrel1>)
+setTitle("Barrel of laughs")
+setDescription("Craft a wooden or stone barrel.")
+
+addParent("triumph:begin/shears")
+
+setPos(12,88)
+alwaysVisible()
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("craftBarrel", "triumph:player_crafted_item")
+criteria.setItem(<ore:barrel>)

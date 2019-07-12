@@ -1,0 +1,12 @@
+setIcon(<mysticalagriculture:nature_essence>)
+setTitle("Nature essence")
+setDescription("Craft nature seeds to obtain nature essence.")
+
+addParent("triumph:mystical/prosperity")
+setPos(-572,56)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Nature essence", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:nature_essence>)

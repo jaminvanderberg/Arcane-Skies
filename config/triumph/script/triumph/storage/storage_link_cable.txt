@@ -1,0 +1,12 @@
+setIcon(<storagenetwork:storage_kabel>)
+setTitle("Storage link cable")
+setDescription("Craft a storage link cable.\n\nConnect the link cable to a chest, drawer, or drawer controller and then connect it to the storage network master with storage cable.")
+
+addParent("triumph:storage/storage_network")
+setPos(105,115)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Storage link cable", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:storage_kabel>)

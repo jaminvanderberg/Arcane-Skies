@@ -1,0 +1,14 @@
+setIcon(<minecraft:slime>)
+setTitle("I've been slimed")
+setDescription("Use a mushroom on witch water to create a slime block.")
+
+addParent("triumph:begin/mushroom")
+setPos(62,131)
+//hideLines()
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasMushroom", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:slime>)

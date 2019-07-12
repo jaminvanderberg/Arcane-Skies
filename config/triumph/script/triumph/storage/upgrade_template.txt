@@ -1,0 +1,12 @@
+setIcon(<storagedrawers:upgrade_template>)
+setTitle("Upgrayedd")
+setDescription("Craft an upgrade template")
+
+addParent("triumph:storage/root")
+setPos(-58,63)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Upgrade template", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:upgrade_template>)

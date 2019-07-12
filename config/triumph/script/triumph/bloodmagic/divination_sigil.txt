@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:sigil_divination>)
+setTitle("Divination sigil")
+setDescription("Craft a divination sigil.\n\nUse the arcane ashes on the ground in an area open to the sky.\nClick the created transmutation sigil with redstone dust and then with a blank slate.")
+
+addParent("triumph:bloodmagic/ashes")
+setPos(-944,-135)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasAshes", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:arcane_ashes>);

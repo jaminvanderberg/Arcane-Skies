@@ -1,0 +1,15 @@
+setIcon(<astralsorcery:itemjournal>)
+setTitle("Astral Sorcery")
+setDescription("Ride the light.")
+setBackground("astralsorcery:textures/blocks/black_marble_raw.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+pageVisibleIf("triumph:magic/astral")
+visibleIf("triumph:magic/astral")
+
+setPos(-5,27)
+
+setFrameType("GOAL")
+criteria = addCriteria("astral", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:magic/astral")

@@ -1,0 +1,12 @@
+setIcon(<extrautils2:grocket>)
+setTitle("Transfer node")
+setDescription("Craft a transfer node.")
+
+addParent("triumph:storage/transfer_pipe")
+setPos(105,30)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Transfer node", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:grocket>)

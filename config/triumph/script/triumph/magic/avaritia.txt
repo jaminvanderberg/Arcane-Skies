@@ -1,0 +1,17 @@
+setIcon(<avaritia:extreme_crafting_table>)
+setTitle("Are you sure you're ready?")
+setDescription("Craft and extreme crafting table to get started with Avaritia and enter the endgame.")
+
+addParent("triumph:magic/root")
+setPos(-1115,-151)
+hideLines()
+setFrameType("CHALLENGE")
+hiddenUnless("triumph:magic/blood_magic")
+hiddenUnless("triumph:magic/astral")
+hiddenUnless("triumph:magic/thaumcraft")
+hiddenUnless("triumph:magic/twilight_forest")
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("hasCrazyTable", "minecraft:inventory_changed")
+criteria.addItem(<avaritia:extreme_crafting_table>);

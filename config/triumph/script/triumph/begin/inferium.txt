@@ -1,0 +1,14 @@
+setIcon(<mysticalagriculture:crafting>)
+setTitle("Infernal crops")
+setDescription("Kill some mobs to collect inferium essence.")
+
+addParent("triumph:begin/floral")
+setPos(175,110)
+hideLines()
+setFrameType("CHALLENGE")
+visibleIf("triumph:begin/floral")
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("hasInferium", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:crafting>)

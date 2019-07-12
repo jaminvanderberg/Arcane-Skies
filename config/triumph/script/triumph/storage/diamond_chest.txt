@@ -1,0 +1,12 @@
+setIcon(<ironchest:iron_chest, meta:2>)
+setTitle("Diamond chest")
+setDescription("Craft a diamond chest.")
+
+addParent("triumph:storage/iron_chest")
+setPos(-25,106)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Diamond chest", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_chest, meta:2>)

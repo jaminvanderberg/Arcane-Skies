@@ -1,0 +1,12 @@
+setIcon(<storagedrawers:compdrawers>)
+setTitle("Compacting drawer")
+setDescription("Craft a compactin drawer")
+
+addParent("triumph:storage/root")
+setPos(-58,30)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Compacting Drawer", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:compdrawers>)

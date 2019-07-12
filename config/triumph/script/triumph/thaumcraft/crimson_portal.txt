@@ -1,0 +1,15 @@
+setIcon(<minecraft:spawn_egg, nbt:{EntityTag:{id:"thaumcraft:cultistportallesser"}}>)
+setTitle("Crimson Cultists")
+setDescription("In order to get to the final chapters of Thaumcraft, you will need to spawn a Crimson Cultist portal.\nCraft the spawn egg to create a new portal.\n\nYou may not want to use it in your base.")
+
+addParent("triumph:thaumcraft/workbench_charger")
+setPos(-1004,-206)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/thaumcraft")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("CrimsonPortal", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:spawn_egg, nbt:{EntityTag:{id:"thaumcraft:cultistportallesser"}}>);

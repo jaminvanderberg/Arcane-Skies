@@ -1,0 +1,12 @@
+setIcon(<mysticalagriculture:stone_essence>)
+setTitle("Stone essence")
+setDescription("Craft stone seeds to obtain stone essence.")
+
+addParent("triumph:mystical/prosperity")
+setPos(-639,39)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Stone essence", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:stone_essence>)

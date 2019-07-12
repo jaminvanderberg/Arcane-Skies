@@ -1,0 +1,13 @@
+setIcon(<minecraft:iron_ore>)
+setTitle("Finally!")
+setDescription("Place the orechid near your mana pool and place stone blocks around it to create ore.\nCollect some iron ore.")
+
+addParent("triumph:botania/orechid")
+setPos(-118,63)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+
+//hideLines()
+
+criteria = addCriteria("hasIronOre", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:iron_ore>)

@@ -1,0 +1,15 @@
+setIcon(<exnihilocreatio:item_mesh, meta:2>)
+setTitle("Gravel stiffened mesh")
+setDescription("Craft a gravel stiffened mesh to improve you chances of getting bonemeal.")
+
+addParent("triumph:begin/floral")
+
+setPos(-103,131)
+setAnnounceToChat(false)
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+hideLines()
+
+criteria2 = addCriteria("Mesh crafted", "triumph:player_crafted_item")
+criteria2.setItem(<exnihilocreatio:item_mesh, meta:2>)

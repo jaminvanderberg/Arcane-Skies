@@ -1,0 +1,14 @@
+setIcon(<avaritia:resource, meta:4>)
+setTitle("Neutronium ingot")
+setDescription("Craft a neutronium ingot.")
+
+addParent("triumph:avaritia/neutron_collector")
+setPos(-1137,-159)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/avaritia")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Neutronium", "minecraft:inventory_changed")
+criteria.addItem(<avaritia:resource, meta:4>);

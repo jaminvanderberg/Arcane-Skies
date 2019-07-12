@@ -1,0 +1,15 @@
+setIcon(<bloodmagic:blood_orb, nbt:{orb:"bloodmagic:master"}>)
+setTitle("Magician blood orb")
+setDescription("Craft a magician blood orb.")
+
+addParent("triumph:bloodmagic/bloodstone")
+setPos(-1020,-59)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_shard")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasMasterBloodOrb", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:blood_orb, nbt:{orb:"bloodmagic:master"}>);

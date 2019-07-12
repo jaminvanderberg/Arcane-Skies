@@ -1,0 +1,71 @@
+Compacting Drawer (storagedrawers:compdrawers - 1170:0) has a TileEntity
+Full block state: storagedrawers:compdrawers[facing=west,slots=open3]
+Hardness: 5.0000, Explosion resistance: 5.0000, Material: ROCK
+Block class: com.jaquadro.minecraft.storagedrawers.block.BlockCompDrawers
+IBlockState properties, including getActualState():
+PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}: west
+PropertyEnum{name=slots, clazz=class com.jaquadro.minecraft.storagedrawers.block.EnumCompDrawer, values=[open1, open2, open3]}: open3
+IExtendedBlockState properties:
+UnlistedModelData{name=modelData, clazz=class com.jaquadro.minecraft.storagedrawers.block.modeldata.DrawerStateModelData, value=Optional[com.jaquadro.minecraft.storagedrawers.block.modeldata.DrawerStateModelData@0]}
+TileEntity class: com.jaquadro.minecraft.storagedrawers.block.tile.TileEntityDrawersComp
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_List (9) ('Upgrades') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Int (3) ('Cap'): 16
+    TAG_Int (3) ('x'): 775
+    TAG_Int (3) ('y'): 82
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Compound (10) ('nuclearcraft:capability_default_radiation_resistance')
+        {
+            TAG_Double (6) ('radiationResistance'): 0.0
+        }
+    }
+    TAG_Int (3) ('z'): -259
+    TAG_String (8) ('id'): "storagedrawers:compdrawers"
+    TAG_Byte (1) ('Dir'): 4
+    TAG_Compound (10) ('Drawers')
+    {
+        TAG_List (9) ('Items') (3 entries of TAG_Compound (10))
+        {
+            TAG_Compound (10) ('')
+            {
+                TAG_Compound (10) ('Item')
+                {
+                    TAG_String (8) ('id'): "minecraft:gold_block"
+                    TAG_Byte (1) ('Count'): 1
+                    TAG_Short (2) ('Damage'): 0
+                }
+                TAG_Int (3) ('Conv'): 81
+                TAG_Byte (1) ('Slot'): 0
+            }
+            TAG_Compound (10) ('')
+            {
+                TAG_Compound (10) ('Item')
+                {
+                    TAG_String (8) ('id'): "minecraft:gold_ingot"
+                    TAG_Byte (1) ('Count'): 13
+                    TAG_Short (2) ('Damage'): 0
+                }
+                TAG_Int (3) ('Conv'): 9
+                TAG_Byte (1) ('Slot'): 1
+            }
+            TAG_Compound (10) ('')
+            {
+                TAG_Compound (10) ('Item')
+                {
+                    TAG_String (8) ('id'): "minecraft:gold_nugget"
+                    TAG_Byte (1) ('Count'): 1
+                    TAG_Short (2) ('Damage'): 0
+                }
+                TAG_Int (3) ('Conv'): 1
+                TAG_Byte (1) ('Slot'): 2
+            }
+        }
+        TAG_Int (3) ('Count'): 117
+    }
+}

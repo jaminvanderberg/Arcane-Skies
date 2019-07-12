@@ -1,0 +1,12 @@
+setIcon(<storagedrawers:basicdrawers>)
+setTitle("Storage drawers")
+setDescription("Craft a basic drawer")
+
+addParent("triumph:storage/root")
+setPos(-91,30)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Basic Drawer", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:basicdrawers>)

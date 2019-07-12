@@ -1,0 +1,14 @@
+setIcon(<astralsorcery:itemcape, nbt:{astralsorcery:{constellationName:"astralsorcery.constellation.vicio"}}>)
+setTitle("Mantle of Stars (Vicio)")
+setDescription("Craft a mantle of stars attuned to Vicio. You will need to use a crystal attuned to Vicio in the iridescent altar.\n\nThis item is used to craft the angel ring.")
+
+addParent("triumph:astral/attune_crystal")
+setPos(347,70)
+//hideLines()
+setFrameType("CHALLENGE")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Mantle", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:itemcape, nbt:{astralsorcery:{constellationName:"astralsorcery.constellation.vicio"}}>);

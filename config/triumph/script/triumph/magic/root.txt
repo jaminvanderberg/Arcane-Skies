@@ -1,0 +1,14 @@
+setIcon(<thaumcraft:amulet_vis>)
+setTitle("Magic and Adventure")
+setDescription("Starting points for the various magic and adventure mods available.")
+setBackground("thaumcraft:textures/gui/gui_research_back_7.jpg")
+
+setShowToast(false)
+setAnnounceToChat(false)
+pageVisibleIf("triumph:root/floral")
+
+setPos(-1228,-243)
+
+setFrameType("GOAL")
+criteria = addCriteria("botania", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:begin/floral")

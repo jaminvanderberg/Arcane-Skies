@@ -1,0 +1,12 @@
+setIcon(<translocators:translocator_part, meta:0>)
+setTitle("Translocator")
+setDescription("Craft a translocator.")
+
+addParent("triumph:storage/root")
+setPos(72,73)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Translocator", "minecraft:inventory_changed")
+criteria.addItem(<translocators:translocator_part>)

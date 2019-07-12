@@ -1,0 +1,13 @@
+setIcon(<astralsorcery:blockattunementaltar>)
+setTitle("I can see the light")
+setDescription("Craft an attunment altar. Hold the constellation paper for a discovered constellation that is visible in your off hand while standing over the attunement altar. Place spectral relays over the blue swirls that appear. Once finished, step into the attunement altar to attune yourself.")
+
+addParent("triumph:astral/find_constellation")
+setPos(318,27)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Attune self", "astralsorcery:attune_self")

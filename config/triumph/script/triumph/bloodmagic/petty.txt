@@ -1,0 +1,14 @@
+setIcon(<bloodmagic:soul_gem, meta:0>)
+setTitle("Don't be petty")
+setDescription("Craft a petty tartaric gem.")
+
+addParent("triumph:bloodmagic/hellfire")
+setPos(-1058,-211)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/blood_magic")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasPetty", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:soul_gem, meta:0>);

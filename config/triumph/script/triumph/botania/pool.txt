@@ -1,0 +1,12 @@
+setIcon(<botania:pool>)
+setTitle("Mana Pool")
+setDescription("Craft a mana pool.")
+
+addParent("triumph:botania/livingrock")
+setPos(-228,63)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("craftedPool", "triumph:player_crafted_item")
+criteria.setItem(<botania:pool>)

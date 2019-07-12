@@ -1,0 +1,15 @@
+setIcon(<minecraft:red_mushroom>)
+setTitle("A witching brew")
+setDescription("Use ancient spores on dirt to make mycelium.\nPlace a barrel of water on top of it to make witch water.\nMushrooms will form on mycelium blocks around the witch water in low light.\n\nObtain a mushroom.")
+
+addParent("triumph:begin/floral")
+setPos(29,131)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasMushroom", "minecraft:inventory_changed")
+criteria.addItem(<ore:itemMushroom>)

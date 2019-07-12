@@ -1,0 +1,15 @@
+setIcon(<bloodmagic:slate, meta:0>)
+setTitle("Blank slate")
+setDescription("Craft a blank slate.")
+
+addParent("triumph:bloodmagic/blood_altar")
+setPos(-1058,-173)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/blood_magic")
+
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasBlankSlate", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:slate, meta:0>);

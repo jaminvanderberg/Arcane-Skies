@@ -1,0 +1,12 @@
+setIcon(<extrautils2:ingredients, meta:6>)
+setTitle("Upgrade speed")
+setDescription("Craft an upgrade speed.\n\nNote: grid power is disabled.")
+
+addParent("triumph:storage/root")
+setPos(138,30)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Upgrade speed", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:ingredients, meta:6>)

@@ -1,0 +1,15 @@
+setIcon(<astralsorcery:itemcelestialcrystal>)
+setTitle("Celestial crystal")
+setDescription("Place stardust and a rock crystal in a pool of liquid starlight to create a celestial crystal cluster.\nLet it grow before mining it to obtain a celestial crystal.")
+
+addParent("triumph:astral/starmetal")
+addParent("triumph:astral/liquid_starlight")
+setPos(160,-6)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Starmetal Ore", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:itemcelestialcrystal>);

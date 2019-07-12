@@ -1,0 +1,15 @@
+setIcon(<thaumcraft:cloud_ring>)
+setTitle("Cloudstepper ring")
+setDescription("Craft a cloudstepper ring.")
+
+addParent("triumph:thaumcraft/root")
+setPos(-1115,-169)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/thaumcraft")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Cloudstepper", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:cloud_ring>);

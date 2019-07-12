@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:blood_shard, meta:0>)
+setTitle("Weak blood shard")
+setDescription("Kill enemies with the bound blade to get weak blood shards.\nYou may want to consider a looting enchantment.")
+
+addParent("triumph:bloodmagic/bound_blade")
+setPos(-868,-135)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasBloodShard", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:blood_shard, meta:0>);

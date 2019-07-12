@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:activation_crystal>)
+setTitle("Activation crystal")
+setDescription("Craft an activation crystal to start a ritual.")
+
+addParent("triumph:bloodmagic/ritual")
+setPos(-868,-97)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/imbued_slate")
+visibleIf("triumph:bloodmagic/magician_blood_orb")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasActivation", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:activation_crystal>);

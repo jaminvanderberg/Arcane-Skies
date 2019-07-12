@@ -1,0 +1,15 @@
+setIcon(<bloodmagic:blood_orb, nbt:{orb:"bloodmagic:archmage"}>)
+setTitle("Archmage blood orb")
+setDescription("Craft an archmage blood orb.")
+
+addParent("triumph:bloodmagic/bloodstone")
+setPos(-944,-59)
+//hideLines()
+setFrameType("CHALLENGE")
+visibleIf("triumph:bloodmagic/weak_blood_shard")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasArchmageBloodOrb", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:blood_orb, nbt:{orb:"bloodmagic:archmage"}>);

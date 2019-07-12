@@ -1,0 +1,15 @@
+setIcon(<avaritia:resource, meta:5>)
+setTitle("Avaritia")
+setDescription("Enter the endgame")
+setBackground("avaritia:textures/blocks/resource/neutronium.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+pageVisibleIf("triumph:magic/avaritia")
+visibleIf("triumph:magic/avaritia")
+
+setPos(-1216,-159)
+
+setFrameType("GOAL")
+criteria = addCriteria("avaritia", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:magic/avaritia")

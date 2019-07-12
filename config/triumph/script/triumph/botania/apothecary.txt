@@ -1,0 +1,12 @@
+setIcon(<botania:altar>)
+setTitle("Apothocary me home")
+setDescription("Craft a petal apothocary.")
+
+addParent("triumph:botania/white")
+setPos(-321,32)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("craftedApothocary", "triumph:player_crafted_item")
+criteria.setItem(<botania:altar, meta:0>)

@@ -1,0 +1,17 @@
+setIcon(<minecraft:red_flower>)
+setTitle("Flowering hope")
+setDescription("Sieve dirt to get 2 poppies and 2 dandelions.\n\nAlternatively, you can bonemeal grass blocks.")
+
+addParent("triumph:begin/seeds")
+
+setPos(126,12)
+//alwaysVisible()
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Poppies", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:red_flower, count:2~>)
+
+criteria2 = addCriteria("Dandelions", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:yellow_flower, count:2~>)

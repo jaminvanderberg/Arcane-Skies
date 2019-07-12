@@ -1,0 +1,14 @@
+setIcon(<exnihilocreatio:hammer_stone>)
+setTitle("It's hammer time!")
+setDescription("Craft a hammer.")
+
+addParent("triumph:begin/shears")
+
+setPos(12,50)
+alwaysVisible()
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("craftHammer", "triumph:player_crafted_item")
+criteria.setItem(<ore:hammer>)

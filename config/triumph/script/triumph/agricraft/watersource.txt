@@ -1,0 +1,13 @@
+setIcon(<infinitewatersource:infinitewatersource>)
+setTitle("Infinite water source")
+setDescription("Craft an infinite water source to supply your irrigation system.")
+
+addParent("triumph:agricraft/irrigation")
+setPos(-434,136)
+setAnnounceToChat(false)
+visibleIf("triumph:agricraft/root")
+
+//hideLines()
+
+criteria = addCriteria("hasWaterSource", "minecraft:inventory_changed")
+criteria.addItem(<infinitewatersource:infinitewatersource>)

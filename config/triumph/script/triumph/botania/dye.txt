@@ -1,0 +1,12 @@
+setIcon(<botania:dye, meta:3>)
+setTitle("To dye for")
+setDescription("Craft floral powder.")
+
+addParent("triumph:botania/pestle")
+setPos(-383,32)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("craftedPstle", "triumph:player_crafted_item")
+criteria.setItem(<botania:dye>)

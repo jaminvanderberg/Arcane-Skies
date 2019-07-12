@@ -1,0 +1,13 @@
+Parser.addRequiredMod("botania_tweaks")
+
+setIcon(<botania:specialflower, nbt:{"type":"manastar"}>)
+setTitle("Generate mana")
+setDescription("Use your mana generation flower to generate some mana..")
+
+addParent("triumph:botania/generation")
+setPos(-300,108)
+visibleIf("triumph:botania/root")
+//hideLines()
+
+criteria = addCriteria("generated", "botania_tweaks:total_generated_mana")
+criteria.setRequiredMana(1)

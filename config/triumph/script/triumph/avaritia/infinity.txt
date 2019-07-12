@@ -1,0 +1,14 @@
+setIcon(<avaritia:resource, meta:5>)
+setTitle("To infinity...")
+setDescription("Craft an infinity catalyst.")
+
+addParent("triumph:avaritia/neutronium_compressor")
+setPos(-1066,-159)
+//hideLines()
+//setFrameType("CHALLENGE")
+visibleIf("triumph:magic/avaritia")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Infinity catalyst", "minecraft:inventory_changed")
+criteria.addItem(<avaritia:resource, meta:5>);

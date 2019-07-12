@@ -1,0 +1,15 @@
+setIcon(<thaumcraft:ingot, meta:0>)
+setTitle("Thaumium")
+setDescription("Craft Thaumium.")
+
+addParent("triumph:thaumcraft/thaumonomicon")
+setPos(-1078,-206)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/thaumcraft")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Thaumium", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:ingot, meta:0>);

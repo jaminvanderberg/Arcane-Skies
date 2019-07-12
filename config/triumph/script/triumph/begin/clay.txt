@@ -1,0 +1,14 @@
+setIcon(<minecraft:clay>)
+setTitle("Clay motion")
+setDescription("Let a barrel fill with rain. Combine the water with dust to make clay.\n\nIf you can't wait for rain, you can move water from a crucible to a barrel with glass bottles.")
+
+addParent("triumph:begin/dirt")
+
+setPos(88,88)
+alwaysVisible()
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("hasClay", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:clay>)

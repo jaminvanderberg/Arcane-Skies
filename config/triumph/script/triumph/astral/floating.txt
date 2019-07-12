@@ -1,0 +1,17 @@
+setIcon(<astralsorcery:blockcollectorcrystal>)
+setTitle("Floating crystal")
+setDescription("Craft a floating crystal and a linking tool.")
+
+addParent("triumph:astral/root")
+setPos(28,27)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Floating crystal", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:blockcollectorcrystal>);
+
+criteria2 = addCriteria("Linking tool", "minecraft:inventory_changed")
+criteria2.addItem(<astralsorcery:itemlinkingtool>);

@@ -1,0 +1,12 @@
+setIcon(<storagenetwork:im_kabel>)
+setTitle("Storage import cable")
+setDescription("Craft a storage import cable.\n\nUse it to transfer items into your network.")
+
+addParent("triumph:storage/storage_network")
+setPos(72,148)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Storage import cable", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:im_kabel>)

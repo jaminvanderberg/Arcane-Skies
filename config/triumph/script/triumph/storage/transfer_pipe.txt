@@ -1,0 +1,12 @@
+setIcon(<extrautils2:pipe>)
+setTitle("Transfer pipe")
+setDescription("Craft a transfer pipe.")
+
+addParent("triumph:storage/root")
+setPos(72,30)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Transfer pipe", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:pipe>)

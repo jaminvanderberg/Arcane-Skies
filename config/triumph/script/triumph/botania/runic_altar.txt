@@ -1,0 +1,14 @@
+setIcon(<botania:runealtar>)
+setTitle("Runic altar")
+setDescription("Craft a runic altar.")
+
+addParent("triumph:botania/ironore")
+setPos(-369,111)
+setAnnounceToChat(false)
+visibleIf("triumph:botania/ironore")
+alwaysHidden()
+
+hideLines()
+
+criteria = addCriteria("RunicAltar", "minecraft:inventory_changed")
+criteria.addItem(<botania:runealtar>)

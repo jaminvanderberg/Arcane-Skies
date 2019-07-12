@@ -1,0 +1,12 @@
+setIcon(<ironchest:iron_chest, meta:1>)
+setTitle("Gold chest")
+setDescription("Craft a gold chest.")
+
+addParent("triumph:storage/iron_chest")
+setPos(-58,106)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Gold chest", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_chest, meta:1>)

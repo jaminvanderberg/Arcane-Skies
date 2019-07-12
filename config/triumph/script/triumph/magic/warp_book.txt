@@ -1,0 +1,18 @@
+setIcon(<warpbook:warpbook>)
+setTitle("Warp book")
+setDescription("Craft a warp book and an unbound warp page.")
+
+addParent("triumph:magic/root")
+setPos(-1228,-151)
+hideLines()
+//setFrameType("CHALLENGE")
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("Warp Book", "minecraft:inventory_changed")
+criteria.addItem(<warpbook:warpbook>);
+
+criteria = addCriteria("Warp Page", "minecraft:inventory_changed")
+criteria.addItem(<warpbook:unboundwarppage>);

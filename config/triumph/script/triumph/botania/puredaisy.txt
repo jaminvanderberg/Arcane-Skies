@@ -1,0 +1,12 @@
+setIcon(<botania:specialflower, nbt:{"type":"puredaisy"}>)
+setTitle("Purest of the Daisies")
+setDescription("Use the petal apothecary to craft a pure daisy.")
+
+addParent("triumph:botania/apothecary")
+setPos(-290,32)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("hasDaisy", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{"type":"puredaisy"}>)

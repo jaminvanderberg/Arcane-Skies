@@ -1,0 +1,14 @@
+setIcon(<bloodmagic:sentient_sword>)
+setTitle("Sentient sword")
+setDescription("Craft a sentient sword.\nThis sword will allow you to collect demonic will without the use of snares.")
+
+addParent("triumph:bloodmagic/petty")
+setPos(-1020,-211)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/blood_magic")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasSentientSword", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:sentient_sword>);

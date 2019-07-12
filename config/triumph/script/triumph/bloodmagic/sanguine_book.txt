@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:sanguine_book>)
+setTitle("Inspectoris Scandalum")
+setDescription("Craft an Inspectoris Scandalum. It will show you how to lay out higher tier blood altars.")
+
+addParent("triumph:bloodmagic/weak_blood_orb")
+setPos(-1134,-135)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasSanguineBook", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:sanguine_book>);

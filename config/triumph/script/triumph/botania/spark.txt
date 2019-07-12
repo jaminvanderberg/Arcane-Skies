@@ -1,0 +1,14 @@
+setIcon(<botania:spark>)
+setTitle("Spark")
+setDescription("Craft a spark to help transfer mana around.")
+
+addParent("triumph:botania/ironore")
+setPos(-335,111)
+setAnnounceToChat(false)
+visibleIf("triumph:botania/ironore")
+alwaysHidden()
+
+hideLines()
+
+criteria = addCriteria("Spark", "minecraft:inventory_changed")
+criteria.addItem(<botania:spark>)

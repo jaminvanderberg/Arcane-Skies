@@ -1,0 +1,12 @@
+setIcon(<botania:specialflower, nbt:{"type":"orechid"}>)
+setTitle("Orechid is already a pun")
+setDescription("Create an orechid.")
+
+addParent("triumph:botania/generation")
+setPos(-149,63)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("hasOrechid", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{"type":"orechid"}>)

@@ -1,0 +1,14 @@
+setIcon(<avaritia:resource, meta:6>)
+setTitle("...and beyond")
+setDescription("Craft an infinity ingot.")
+
+addParent("triumph:avaritia/infinity")
+setPos(-1032,-159)
+//hideLines()
+//setFrameType("CHALLENGE")
+visibleIf("triumph:magic/avaritia")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Infinity ingot", "minecraft:inventory_changed")
+criteria.addItem(<avaritia:resource, meta:6>);

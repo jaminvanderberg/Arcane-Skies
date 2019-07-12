@@ -1,0 +1,12 @@
+setIcon(<mysticalagriculture:soulium_dagger>)
+setTitle("Soulium dagger")
+setDescription("Craft a soulium dagger.")
+
+addParent("triumph:mystical/root")
+setPos(-496,56)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Soulium dagger", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:soulium_dagger>)

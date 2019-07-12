@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:ritual_stone, meta:0>)
+setTitle("Ritual stone")
+setDescription("Craft a ritual stone.")
+
+addParent("triumph:bloodmagic/magician_blood_orb")
+setPos(-982,-97)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/imbued_slate")
+visibleIf("triumph:bloodmagic/magician_blood_orb")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasRitual", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:ritual_stone, meta:0>);

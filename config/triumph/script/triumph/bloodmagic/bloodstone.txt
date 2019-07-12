@@ -1,0 +1,15 @@
+setIcon(<bloodmagic:decorative_brick, meta:0>)
+setTitle("Bloodstone")
+setDescription("Craft bloodstone to place in your tier 4 altar.")
+
+addParent("triumph:bloodmagic/weak_blood_shard")
+setPos(-1096,-59)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_shard")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasBloodstone", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:decorative_brick, meta:0>);

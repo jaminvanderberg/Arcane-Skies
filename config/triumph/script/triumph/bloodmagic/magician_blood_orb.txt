@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:blood_orb, nbt:{orb:"bloodmagic:magician"}>)
+setTitle("Magician blood orb")
+setDescription("Craft a magician blood orb.")
+
+addParent("triumph:bloodmagic/apprentice_blood_orb")
+setPos(-1020,-97)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasMagicianBloodOrb", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:blood_orb, nbt:{orb:"bloodmagic:magician"}>);

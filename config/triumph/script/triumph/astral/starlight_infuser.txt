@@ -1,0 +1,14 @@
+setIcon(<astralsorcery:blockstarlightinfuser>)
+setTitle("Starlight infuser")
+setDescription("Craft a starlight infuser.")
+
+addParent("triumph:tier2altar")
+setPos(192,56)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Starlight Infuser", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:blockstarlightinfuser>);

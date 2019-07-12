@@ -1,0 +1,15 @@
+setIcon(<bloodmagic:slate, meta:4>)
+setTitle("Ethereal slate")
+setDescription("Craft ethereal slate.")
+
+addParent("triumph:bloodmagic/bloodstone")
+setPos(-982,-59)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_shard")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasEtherealSlate", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:slate, meta:4>);

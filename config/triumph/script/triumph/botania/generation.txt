@@ -1,0 +1,14 @@
+setIcon(<botania:specialflower, nbt:{"type":"endoflame"}>)
+setTitle("Mana generation flower")
+setDescription("Craft an endoflame to start generating mana.")
+
+addParent("triumph:botania/spreader")
+addParent("triumph:botania/pool")
+setPos(-180,63)
+setAnnounceToChat(false)
+visibleIf("triumph:botania/root")
+
+//hideLines()
+
+criteria = addCriteria("Endoflame", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{"type":"endoflame"}>)

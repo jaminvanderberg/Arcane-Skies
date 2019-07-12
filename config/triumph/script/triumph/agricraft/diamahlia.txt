@@ -1,0 +1,14 @@
+setIcon(<agricraft:agri_seed, meta:0, nbt:{"agri_analyzed":1,"agri_seed":"resource:diamahlia_plant","agri_strength":10,"agri_gain":10,"agri_growth":10}>)
+setTitle("Diamahlia")
+setDescription("Mutate aurigold seeds and burning spores to create diamahlia seeds.")
+
+addParent("triumph:agricraft/burningspores")
+setPos(-193,91)
+setAnnounceToChat(true)
+visibleIf("triumph:agricraft/root")
+setFrameType("CHALLENGE")
+
+//hideLines()
+
+criteria = addCriteria("hasBurning", "minecraft:inventory_changed")
+criteria.addItem(<agricraft:agri_seed, meta:0, nbt:{"agri_seed":"resource:diamahlia_plant"}>)

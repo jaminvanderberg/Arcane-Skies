@@ -1,0 +1,13 @@
+setIcon(<minecraft:lapis_ore, meta:0>)
+setTitle("Silky smooth")
+setDescription("Obtain a silk touch tool to mine lapis ore.\n\nA Tinker's Construct silky jewel is probably the easiest way to obtain this.")
+
+addParent("triumph:agricraft/ferranum")
+setPos(-383,91)
+setAnnounceToChat(false)
+visibleIf("triumph:agricraft/root")
+
+//hideLines()
+
+criteria = addCriteria("hasLapisore", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:lapis_ore>)

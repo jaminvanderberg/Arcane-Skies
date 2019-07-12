@@ -1,0 +1,12 @@
+setIcon(<botania:flower>)
+setTitle("Flower collector")
+setDescription("Continue crafting and using floral fertilizer.\nYou will need at least 2 mystical white flowers to get started.")
+
+addParent("triumph:botania/dye")
+setPos(-352,32)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("hasWhite", "minecraft:inventory_changed")
+criteria.addItem(<botania:flower, meta:0, count:2~>)

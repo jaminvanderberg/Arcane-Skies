@@ -1,0 +1,13 @@
+setIcon(<agricraft:clipper>)
+setTitle("Clipper")
+setDescription("Craft a clipper to clone your best crops. (Works best on crops with high strength stats).")
+
+addParent("triumph:agricraft/root")
+setPos(-397,136)
+setAnnounceToChat(false)
+visibleIf("triumph:agricraft/root")
+
+hideLines()
+
+criteria = addCriteria("hasClipper", "minecraft:inventory_changed")
+criteria.addItem(<agricraft:clipper>)

@@ -1,0 +1,480 @@
+Entity: jaminv [registry name: null] (entityId: 0)
+Entity class: net.minecraft.entity.player.EntityPlayerMP
+
+
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('HurtByTimestamp'): 0
+    TAG_List (9) ('Spawns') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Compound (10) ('ForgeData')
+    {
+        TAG_Compound (10) ('PlayerPersisted')
+        {
+            TAG_Byte (1) ('Botania-MadeIsland'): 1
+            TAG_Byte (1) ('ftbutilities_starting_items'): 1
+        }
+        TAG_Short (2) ('ftbu_lchunk'): 21968
+    }
+    TAG_Short (2) ('SleepTimer'): 0
+    TAG_Byte (1) ('SpawnForced'): 1
+    TAG_List (9) ('Attributes') (10 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 20.0
+            TAG_String (8) ('Name'): "generic.maxHealth"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.knockbackResistance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.10000000149011612
+            TAG_String (8) ('Name'): "generic.movementSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armor"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armorToughness"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "forge.swimSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "generic.attackDamage"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 4.0
+            TAG_String (8) ('Name'): "generic.attackSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.luck"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 5.0
+            TAG_String (8) ('Name'): "generic.reachDistance"
+        }
+    }
+    TAG_Byte (1) ('Invulnerable'): 0
+    TAG_Byte (1) ('FallFlying'): 0
+    TAG_Int (3) ('PortalCooldown'): 0
+    TAG_Float (5) ('AbsorptionAmount'): 0.0
+    TAG_Compound (10) ('abilities')
+    {
+        TAG_Byte (1) ('invulnerable'): 0
+        TAG_Byte (1) ('mayfly'): 0
+        TAG_Byte (1) ('instabuild'): 0
+        TAG_Float (5) ('walkSpeed'): 0.1
+        TAG_Byte (1) ('mayBuild'): 1
+        TAG_Byte (1) ('flying'): 0
+        TAG_Float (5) ('flySpeed'): 0.05
+    }
+    TAG_Float (5) ('FallDistance'): 0.0
+    TAG_Compound (10) ('recipeBook')
+    {
+        TAG_List (9) ('recipes') (42 entries of TAG_String (8))
+        {
+            TAG_String (8) (''): "minecraft:yellow_dye_from_dandelion"
+            TAG_String (8) (''): "minecraft:stone_pickaxe"
+            TAG_String (8) (''): "minecraft:stone_axe"
+            TAG_String (8) (''): "minecraft:stick"
+            TAG_String (8) (''): "minecraft:red_dye_from_poppy"
+            TAG_String (8) (''): "minecraft:oak_wooden_slab"
+            TAG_String (8) (''): "minecraft:oak_planks"
+            TAG_String (8) (''): "minecraft:light_gray_dye_from_oxeye_daisy"
+            TAG_String (8) (''): "minecraft:furnace"
+            TAG_String (8) (''): "minecraft:crafting_table"
+            TAG_String (8) (''): "minecraft:chest"
+            TAG_String (8) (''): "minecraft:bowl"
+            TAG_String (8) (''): "bettershears:stone_shears"
+            TAG_String (8) (''): "botania:petal_8"
+            TAG_String (8) (''): "botania:petal_6"
+            TAG_String (8) (''): "botania:petal_5"
+            TAG_String (8) (''): "botania:petal_4"
+            TAG_String (8) (''): "botania:petal_2"
+            TAG_String (8) (''): "botania:petal_14"
+            TAG_String (8) (''): "botania:petal_13"
+            TAG_String (8) (''): "botania:petal_10"
+            TAG_String (8) (''): "botania:pestleandmortar"
+            TAG_String (8) (''): "botania:garden_of_glass/pebble_to_cobblestone"
+            TAG_String (8) (''): "botania:garden_of_glass/fertilizer_powder"
+            TAG_String (8) (''): "botania:fertilizer_dye"
+            TAG_String (8) (''): "botania:dye_8"
+            TAG_String (8) (''): "botania:dye_6"
+            TAG_String (8) (''): "botania:dye_5"
+            TAG_String (8) (''): "botania:dye_4"
+            TAG_String (8) (''): "botania:dye_2"
+            TAG_String (8) (''): "botania:dye_14"
+            TAG_String (8) (''): "botania:dye_13"
+            TAG_String (8) (''): "botania:dye_10"
+            TAG_String (8) (''): "ceramics:uncrafting/clay_block"
+            TAG_String (8) (''): "ceramics:tools/unfired_clay_bucket"
+            TAG_String (8) (''): "exnihilocreatio:sieve"
+            TAG_String (8) (''): "exnihilocreatio:hammer_stone"
+            TAG_String (8) (''): "exnihilocreatio:crucible_wood"
+            TAG_String (8) (''): "exnihilocreatio:crook_wood"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_1"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_2"
+            TAG_String (8) (''): "exnihilocreatio:block_barrel0"
+        }
+        TAG_Byte (1) ('isFilteringCraftable'): 0
+        TAG_List (9) ('toBeDisplayed') (42 entries of TAG_String (8))
+        {
+            TAG_String (8) (''): "minecraft:yellow_dye_from_dandelion"
+            TAG_String (8) (''): "minecraft:stone_pickaxe"
+            TAG_String (8) (''): "minecraft:stone_axe"
+            TAG_String (8) (''): "minecraft:stick"
+            TAG_String (8) (''): "minecraft:red_dye_from_poppy"
+            TAG_String (8) (''): "minecraft:oak_wooden_slab"
+            TAG_String (8) (''): "minecraft:oak_planks"
+            TAG_String (8) (''): "minecraft:light_gray_dye_from_oxeye_daisy"
+            TAG_String (8) (''): "minecraft:furnace"
+            TAG_String (8) (''): "minecraft:crafting_table"
+            TAG_String (8) (''): "minecraft:chest"
+            TAG_String (8) (''): "minecraft:bowl"
+            TAG_String (8) (''): "bettershears:stone_shears"
+            TAG_String (8) (''): "botania:petal_8"
+            TAG_String (8) (''): "botania:petal_6"
+            TAG_String (8) (''): "botania:petal_5"
+            TAG_String (8) (''): "botania:petal_4"
+            TAG_String (8) (''): "botania:petal_2"
+            TAG_String (8) (''): "botania:petal_14"
+            TAG_String (8) (''): "botania:petal_13"
+            TAG_String (8) (''): "botania:petal_10"
+            TAG_String (8) (''): "botania:pestleandmortar"
+            TAG_String (8) (''): "botania:garden_of_glass/pebble_to_cobblestone"
+            TAG_String (8) (''): "botania:garden_of_glass/fertilizer_powder"
+            TAG_String (8) (''): "botania:fertilizer_dye"
+            TAG_String (8) (''): "botania:dye_8"
+            TAG_String (8) (''): "botania:dye_6"
+            TAG_String (8) (''): "botania:dye_5"
+            TAG_String (8) (''): "botania:dye_4"
+            TAG_String (8) (''): "botania:dye_2"
+            TAG_String (8) (''): "botania:dye_14"
+            TAG_String (8) (''): "botania:dye_13"
+            TAG_String (8) (''): "botania:dye_10"
+            TAG_String (8) (''): "ceramics:uncrafting/clay_block"
+            TAG_String (8) (''): "ceramics:tools/unfired_clay_bucket"
+            TAG_String (8) (''): "exnihilocreatio:sieve"
+            TAG_String (8) (''): "exnihilocreatio:hammer_stone"
+            TAG_String (8) (''): "exnihilocreatio:crucible_wood"
+            TAG_String (8) (''): "exnihilocreatio:crook_wood"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_1"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_2"
+            TAG_String (8) (''): "exnihilocreatio:block_barrel0"
+        }
+        TAG_Byte (1) ('isGuiOpen'): 0
+    }
+    TAG_Short (2) ('DeathTime'): 0
+    TAG_Int (3) ('XpSeed'): 2114458155
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Compound (10) ('theoneprobe:properties')
+        {
+            TAG_Byte (1) ('gotNote'): 1
+        }
+        TAG_Compound (10) ('baubles:container')
+        {
+            TAG_Int (3) ('Size'): 7
+            TAG_List (9) ('Items') (0 entries of TAG_End (0))
+            {
+            }
+        }
+    }
+    TAG_Int (3) ('XpTotal'): 0
+    TAG_Int (3) ('playerGameType'): 0
+    TAG_Byte (1) ('seenCredits'): 0
+    TAG_List (9) ('Motion') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.0784000015258789
+        TAG_Double (6) (''): 0.0
+    }
+    TAG_Int (3) ('SpawnY'): 86
+    TAG_Long (4) ('UUIDLeast'): -6637841816310469199
+    TAG_Float (5) ('Health'): 16.0
+    TAG_Int (3) ('SpawnZ'): -254
+    TAG_Float (5) ('foodSaturationLevel'): 0.0
+    TAG_Int (3) ('SpawnX'): 770
+    TAG_Byte (1) ('HasSpawnDimensionSet'): 0
+    TAG_Short (2) ('Air'): 300
+    TAG_Byte (1) ('OnGround'): 1
+    TAG_Int (3) ('Dimension'): 0
+    TAG_Compound (10) ('ForgeDataVersion')
+    {
+        TAG_Int (3) ('minecraft'): 1343
+        TAG_Int (3) ('ceramics'): 1
+    }
+    TAG_List (9) ('Rotation') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): -284.99878
+        TAG_Float (5) (''): 16.349997
+    }
+    TAG_Int (3) ('XpLevel'): 0
+    TAG_Byte (1) ('UpdateBlocked'): 0
+    TAG_Int (3) ('Score'): 0
+    TAG_Long (4) ('UUIDMost'): -3243313976764905608
+    TAG_Byte (1) ('Sleeping'): 0
+    TAG_List (9) ('Pos') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 770.0785626814843
+        TAG_Double (6) (''): 81.0
+        TAG_Double (6) (''): -253.12481966017387
+    }
+    TAG_Short (2) ('Fire'): -20
+    TAG_Float (5) ('XpP'): 0.0
+    TAG_List (9) ('EnderItems') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Int (3) ('DataVersion'): 1343
+    TAG_Int (3) ('foodLevel'): 16
+    TAG_Float (5) ('foodExhaustionLevel'): 1.8469844
+    TAG_Short (2) ('HurtTime'): 0
+    TAG_Int (3) ('SelectedItemSlot'): 2
+    TAG_List (9) ('Inventory') (31 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 0
+            TAG_String (8) ('id'): "advancementbook:advancement_book"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 1
+            TAG_String (8) ('id'): "minecraft:wooden_slab"
+            TAG_Byte (1) ('Count'): 4
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 2
+            TAG_String (8) ('id'): "ceramics:clay_bucket"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_Compound (10) ('fluids')
+                {
+                    TAG_String (8) ('FluidName'): "water"
+                    TAG_Int (3) ('Amount'): 1000
+                }
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 3
+            TAG_String (8) ('id'): "exnihilocreatio:crook_stone"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 5
+            TAG_String (8) ('id'): "exnihilocreatio:crook_stone"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 31
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 6
+            TAG_String (8) ('id'): "exnihilocreatio:hammer_stone"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 35
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 7
+            TAG_String (8) ('id'): "minecraft:stone_axe"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 45
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 8
+            TAG_String (8) ('id'): "minecraft:bowl"
+            TAG_Byte (1) ('Count'): 6
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 9
+            TAG_String (8) ('id'): "minecraft:stone_pickaxe"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 10
+            TAG_String (8) ('id'): "minecraft:stone_axe"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 11
+            TAG_String (8) ('id'): "minecraft:clay"
+            TAG_Byte (1) ('Count'): 8
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 12
+            TAG_String (8) ('id'): "minecraft:gravel"
+            TAG_Byte (1) ('Count'): 17
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 13
+            TAG_String (8) ('id'): "minecraft:planks"
+            TAG_Byte (1) ('Count'): 46
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 14
+            TAG_String (8) ('id'): "minecraft:stick"
+            TAG_Byte (1) ('Count'): 6
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 15
+            TAG_String (8) ('id'): "botania:manaresource"
+            TAG_Byte (1) ('Count'): 43
+            TAG_Short (2) ('Damage'): 21
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 16
+            TAG_String (8) ('id'): "minecraft:clay_ball"
+            TAG_Byte (1) ('Count'): 9
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 17
+            TAG_String (8) ('id'): "minecraft:flint"
+            TAG_Byte (1) ('Count'): 2
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 18
+            TAG_String (8) ('id'): "minecraft:string"
+            TAG_Byte (1) ('Count'): 18
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 19
+            TAG_String (8) ('id'): "minecraft:dye"
+            TAG_Byte (1) ('Count'): 2
+            TAG_Short (2) ('Damage'): 15
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 20
+            TAG_String (8) ('id'): "minecraft:red_flower"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 22
+            TAG_String (8) ('id'): "exnihilocreatio:block_barrel0"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 23
+            TAG_String (8) ('id'): "botania:pestleandmortar"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 24
+            TAG_String (8) ('id'): "bettershears:stone_shears"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 25
+            TAG_String (8) ('id'): "exnihilocreatio:crook_stone"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 26
+            TAG_String (8) ('id'): "theoneprobe:probenote"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 27
+            TAG_String (8) ('id'): "botania:manaresource"
+            TAG_Byte (1) ('Count'): 64
+            TAG_Short (2) ('Damage'): 21
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 28
+            TAG_String (8) ('id'): "exnihilocreatio:crook_wood"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 29
+            TAG_String (8) ('id'): "exnihilocreatio:crook_wood"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 33
+            TAG_String (8) ('id'): "exnihilocreatio:block_sieve"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 34
+            TAG_String (8) ('id'): "minecraft:cobblestone"
+            TAG_Byte (1) ('Count'): 4
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 35
+            TAG_String (8) ('id'): "minecraft:yellow_flower"
+            TAG_Byte (1) ('Count'): 4
+            TAG_Short (2) ('Damage'): 0
+        }
+    }
+    TAG_Int (3) ('foodTickTimer'): 0
+}

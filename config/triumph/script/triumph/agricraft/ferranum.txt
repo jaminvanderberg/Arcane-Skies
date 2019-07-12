@@ -1,0 +1,13 @@
+setIcon(<agricraft:agri_seed, meta:0, nbt:{"agri_analyzed":1,"agri_seed":"resource:ferranium_plant","agri_strength":10,"agri_gain":10,"agri_growth":10}>)
+setTitle("Ferranum seeds")
+setDescription("Mutate melon and pumpkin seeds to create ferranum seeds.")
+
+addParent("triumph:agricraft/wateringcan")
+setPos(-421,91)
+setAnnounceToChat(false)
+visibleIf("triumph:agricraft/root")
+
+//hideLines()
+
+criteria = addCriteria("hasFerranum", "minecraft:inventory_changed")
+criteria.addItem(<agricraft:agri_seed, meta:0, nbt:{"agri_seed":"resource:ferranium_plant"}>)

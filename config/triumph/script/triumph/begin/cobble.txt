@@ -1,0 +1,13 @@
+setIcon(<minecraft:cobblestone>)
+setTitle("You rock!")
+setDescription("Combine 4 pebbles in a crafting grid to make cobblestone.")
+
+addParent("triumph:begin/pebble")
+setPos(-70,67)
+setAnnounceToChat(false)
+
+//hideLines()
+
+
+criteria = addCriteria("hasCobble", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:cobblestone>)

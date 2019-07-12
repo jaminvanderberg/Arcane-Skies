@@ -1,0 +1,14 @@
+setIcon(<astralsorcery:blockwell>)
+setTitle("Lightwell")
+setDescription("Craft a lightwell.\n\nYou will need to exit the luminous crafting table and click it with your resonating wand to complete the crafting.")
+
+addParent("triumph:astral/luminous")
+setPos(95,27)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasLightwell", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:blockwell>);

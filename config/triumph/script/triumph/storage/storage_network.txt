@@ -1,0 +1,12 @@
+setIcon(<storagenetwork:master>)
+setTitle("Storage network")
+setDescription("Craft a storage network master.")
+
+addParent("triumph:storage/root")
+setPos(72,115)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("Storage network master", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:master>)

@@ -1,0 +1,13 @@
+setIcon(<storagenetwork:remote, meta:1>)
+setTitle("Universal remote")
+setDescription("Craft an advanced storage remote.")
+
+addParent("triumph:storage/storage_network")
+setPos(171,148)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+
+hideLines()
+
+criteria = addCriteria("Advanced storage remote", "minecraft:inventory_changed")
+criteria.addItem(<storagenetwork:remote, meta:1>)

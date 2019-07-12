@@ -1,0 +1,17 @@
+setIcon(<bloodmagic:soul_gem, meta:3>)
+setTitle("Greater tartaric gem")
+setDescription("Craft a greater tartaric gem.")
+
+addParent("triumph:bloodmagic/common")
+addParent("triumph:bloodmagic/demon_will_crystal")
+setPos(-906,-211)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/imbued_slate")
+visibleIf("triumph:bloodmagic/magician_blood_orb")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasGreater", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:soul_gem, meta:3>);

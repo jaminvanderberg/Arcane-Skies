@@ -1,0 +1,15 @@
+setIcon(<mysticalagriculture:crafting>)
+setTitle("Mystical Agriculture")
+setDescription("Using Mystical Agriculture to ramp up resource production.")
+setBackground("mysticalagriculture:textures/blocks/prudentium_block.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+setPos(-715,56)
+
+setFrameType("GOAL")
+criteria = addCriteria("ma", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:begin/inferium")
+
+addCriteria("location", "minecraft:location")

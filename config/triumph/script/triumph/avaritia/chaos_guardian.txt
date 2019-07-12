@@ -1,0 +1,15 @@
+setIcon(<minecraft:skull, meta:5>)
+setTitle("Just to say you did")
+setDescription("Kill the chaos guardian.")
+
+addParent("triumph:avaritia/root")
+setPos(-979,-159)
+setAnnounceToChat(false)
+visibleIf("triumph:magic/avaritia")
+alwaysHidden()
+setFrameType("CHALLENGE")
+
+hideLines()
+
+criteria = addCriteria("Choas", "minecraft:player_killed_entity")
+criteria.setEntityType("draconicevolution:chaosguardian")

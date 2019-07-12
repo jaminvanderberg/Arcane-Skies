@@ -1,0 +1,17 @@
+setIcon(<exnihilocreatio:block_sieve>)
+setTitle("Sieve it to beaver")
+setDescription("Craft a sieve and a string mesh.")
+
+addParent("triumph:begin/string")
+
+setPos(12,12)
+alwaysVisible()
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Sieve crafted", "triumph:player_crafted_item")
+criteria.setItem(<exnihilocreatio:block_sieve>)
+
+criteria2 = addCriteria("Mesh crafted", "triumph:player_crafted_item")
+criteria2.setItem(<exnihilocreatio:item_mesh>)

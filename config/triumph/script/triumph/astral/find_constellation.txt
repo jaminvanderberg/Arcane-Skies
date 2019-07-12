@@ -1,0 +1,13 @@
+setIcon(<astralsorcery:blockmachine>)
+setTitle("I can see clearly now")
+setDescription("Use a looking glass or telescope to find a constellation for which you've created constellation papers. Once you've spotted it, draw the constellation to discover it.")
+
+addParent("triumph:astral/constellation_papers")
+setPos(286,27)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/astral")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("Find Constellation", "astralsorcery:find_constellation")

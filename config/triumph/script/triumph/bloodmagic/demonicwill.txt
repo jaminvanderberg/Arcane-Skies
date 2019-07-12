@@ -1,0 +1,14 @@
+setIcon(<bloodmagic:monster_soul>)
+setTitle("Demons out!")
+setDescription("Use a rudimentary snare on a hostile enemy. Kill it while it has a white particle effect to get demonic will.")
+
+addParent("triumph:bloodmagic/root")
+setPos(-1134,-211)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/blood_magic")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasWill", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:monster_soul>);

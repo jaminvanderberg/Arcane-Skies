@@ -1,0 +1,12 @@
+setIcon(<botania:spreader>)
+setTitle("Start spreading the mana")
+setDescription("Craft a mana spreader.")
+
+addParent("triumph:botania/wand")
+setPos(-197,32)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("craftedSpreader", "triumph:player_crafted_item")
+criteria.setItem(<botania:spreader>)

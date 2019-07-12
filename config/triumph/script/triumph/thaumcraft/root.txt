@@ -1,0 +1,15 @@
+setIcon(<thaumcraft:thaumonomicon>)
+setTitle("Thaumcraft")
+setDescription("Most of the thaumcraft progression is provided in the Thaumonomicon. This just covers some of the key goals and modpack-specific tasks.")
+setBackground("thaumcraft:textures/gui/gui_research_back_5.jpg")
+
+setShowToast(false)
+setAnnounceToChat(false)
+pageVisibleIf("triumph:magic/thaumcraft")
+visibleIf("triumph:magic/thaumcraft")
+
+setPos(-1189,-206)
+
+setFrameType("GOAL")
+criteria = addCriteria("thaumcraft", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:magic/thaumcraft")

@@ -1,0 +1,13 @@
+setIcon(<minecraft:wheat_seeds>)
+setTitle("Planting agricraft seeds")
+setDescription("Plant agricraft crops by placing crop sticks on the approriate soil type (see JEI) and then planting the seed.")
+
+setShowToast(false)
+setAnnounceToChat(false)
+setParent("triumph:agricraft/root")
+visibleIf("triumph:agricraft/root")
+
+setPos(-459,53)
+
+criteria = addCriteria("agricraft", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:begin/cropsticks")

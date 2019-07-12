@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:ritual_diviner>)
+setTitle("Ritual Diviner")
+setDescription("Craft a ritual diviner to help place ritual stones.")
+
+addParent("triumph:bloodmagic/ritual")
+setPos(-906,-97)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/imbued_slate")
+visibleIf("triumph:bloodmagic/magician_blood_orb")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasDiviner", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:ritual_diviner>);

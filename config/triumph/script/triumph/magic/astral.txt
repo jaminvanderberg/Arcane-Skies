@@ -1,0 +1,15 @@
+setIcon(<astralsorcery:itemrockcrystalsimple>)
+setTitle("Look to the skies")
+setDescription("Collect a rock crystal to get started with Astral Sorcery.")
+
+addParent("triumph:magic/root")
+setPos(-1152,-243)
+hideLines()
+setFrameType("CHALLENGE")
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("hasRockCrystal", "minecraft:inventory_changed")
+criteria.addItem(<astralsorcery:itemrockcrystalsimple>);

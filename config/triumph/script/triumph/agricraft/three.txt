@@ -1,0 +1,13 @@
+setIcon(<agricraft:debugger>)
+setTitle("Mutations")
+setDescription("If a cross-crop's parents are of different types, a mutation may occur.\nCheck JEI for mutation recipes.\nThe cross-crop must be on the correct soil type for mutation to occur.")
+
+setShowToast(false)
+setAnnounceToChat(false)
+setParent("triumph:agricraft/two")
+visibleIf("triumph:agricraft/root")
+
+setPos(-383,53)
+
+criteria = addCriteria("agricraft", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:begin/cropsticks")

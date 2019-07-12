@@ -1,0 +1,1166 @@
+Entity: jaminv [registry name: null] (entityId: 1)
+Entity class: net.minecraft.entity.player.EntityPlayerMP
+
+
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('HurtByTimestamp'): 0
+    TAG_List (9) ('Spawns') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Short (2) ('SleepTimer'): 0
+    TAG_Byte (1) ('SpawnForced'): 0
+    TAG_List (9) ('Attributes') (10 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 20.0
+            TAG_String (8) ('Name'): "generic.maxHealth"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.knockbackResistance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.10000000149011612
+            TAG_String (8) ('Name'): "generic.movementSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armor"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armorToughness"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "forge.swimSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "generic.attackDamage"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 4.0
+            TAG_String (8) ('Name'): "generic.attackSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.luck"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 5.0
+            TAG_String (8) ('Name'): "generic.reachDistance"
+        }
+    }
+    TAG_Byte (1) ('Invulnerable'): 0
+    TAG_Float (5) ('AbsorptionAmount'): 0.0
+    TAG_Compound (10) ('abilities')
+    {
+        TAG_Byte (1) ('invulnerable'): 1
+        TAG_Byte (1) ('mayfly'): 1
+        TAG_Byte (1) ('instabuild'): 1
+        TAG_Float (5) ('walkSpeed'): 0.1
+        TAG_Byte (1) ('mayBuild'): 1
+        TAG_Byte (1) ('flying'): 0
+        TAG_Float (5) ('flySpeed'): 0.05
+    }
+    TAG_Float (5) ('FallDistance'): 0.0
+    TAG_Compound (10) ('recipeBook')
+    {
+        TAG_List (9) ('recipes') (193 entries of TAG_String (8))
+        {
+            TAG_String (8) (''): "minecraft:yellow_dye_from_dandelion"
+            TAG_String (8) (''): "minecraft:white_bed"
+            TAG_String (8) (''): "minecraft:torch"
+            TAG_String (8) (''): "minecraft:sugar"
+            TAG_String (8) (''): "minecraft:string_to_wool"
+            TAG_String (8) (''): "minecraft:stone_slab"
+            TAG_String (8) (''): "minecraft:stone_pickaxe"
+            TAG_String (8) (''): "minecraft:stone_hoe"
+            TAG_String (8) (''): "minecraft:stone_button"
+            TAG_String (8) (''): "minecraft:stone_axe"
+            TAG_String (8) (''): "minecraft:stick"
+            TAG_String (8) (''): "minecraft:slime_ball"
+            TAG_String (8) (''): "minecraft:shears"
+            TAG_String (8) (''): "minecraft:redstone_torch"
+            TAG_String (8) (''): "minecraft:red_dye_from_poppy"
+            TAG_String (8) (''): "minecraft:piston"
+            TAG_String (8) (''): "minecraft:paper"
+            TAG_String (8) (''): "minecraft:oak_wooden_slab"
+            TAG_String (8) (''): "minecraft:oak_planks"
+            TAG_String (8) (''): "minecraft:lapis_block"
+            TAG_String (8) (''): "minecraft:ladder"
+            TAG_String (8) (''): "minecraft:jungle_planks"
+            TAG_String (8) (''): "minecraft:iron_sword"
+            TAG_String (8) (''): "minecraft:iron_pickaxe"
+            TAG_String (8) (''): "minecraft:iron_nugget"
+            TAG_String (8) (''): "minecraft:iron_ingot_from_nuggets"
+            TAG_String (8) (''): "minecraft:iron_ingot_from_block"
+            TAG_String (8) (''): "minecraft:iron_hoe"
+            TAG_String (8) (''): "minecraft:iron_block"
+            TAG_String (8) (''): "minecraft:iron_bars"
+            TAG_String (8) (''): "minecraft:iron_axe"
+            TAG_String (8) (''): "minecraft:hopper"
+            TAG_String (8) (''): "minecraft:gold_ingot_from_nuggets"
+            TAG_String (8) (''): "minecraft:gold_ingot_from_block"
+            TAG_String (8) (''): "minecraft:glowstone"
+            TAG_String (8) (''): "minecraft:glass_pane"
+            TAG_String (8) (''): "minecraft:glass_bottle"
+            TAG_String (8) (''): "minecraft:furnace"
+            TAG_String (8) (''): "minecraft:flint_and_steel"
+            TAG_String (8) (''): "minecraft:crafting_table"
+            TAG_String (8) (''): "minecraft:comparator"
+            TAG_String (8) (''): "minecraft:cobblestone_slab"
+            TAG_String (8) (''): "minecraft:chest"
+            TAG_String (8) (''): "minecraft:bucket"
+            TAG_String (8) (''): "minecraft:bowl"
+            TAG_String (8) (''): "minecraft:bookshelf"
+            TAG_String (8) (''): "minecraft:bone_meal_from_bone"
+            TAG_String (8) (''): "extrautils2:shortcut_stick"
+            TAG_String (8) (''): "extrautils2:transfer_pipes"
+            TAG_String (8) (''): "extrautils2:transfer_node_items"
+            TAG_String (8) (''): "extrautils2:spike_iron"
+            TAG_String (8) (''): "agricraft:crop_sticks"
+            TAG_String (8) (''): "agricraft:tank"
+            TAG_String (8) (''): "agricraft:water_channel_full"
+            TAG_String (8) (''): "agricraft:rake_wood"
+            TAG_String (8) (''): "agricraft:sprinkler"
+            TAG_String (8) (''): "agricraft:water_channel_full_inverse"
+            TAG_String (8) (''): "agricraft:clipper"
+            TAG_String (8) (''): "agricraft:journal"
+            TAG_String (8) (''): "agricraft:seed_analyzer"
+            TAG_String (8) (''): "agricraft:water_channel"
+            TAG_String (8) (''): "bettershears:stone_shears"
+            TAG_String (8) (''): "botania:wands/twigwand_blue_cyan"
+            TAG_String (8) (''): "botania:shinyflower_11"
+            TAG_String (8) (''): "botania:runealtar"
+            TAG_String (8) (''): "botania:pool_0"
+            TAG_String (8) (''): "botania:petal_9"
+            TAG_String (8) (''): "botania:petal_8"
+            TAG_String (8) (''): "botania:petal_7"
+            TAG_String (8) (''): "botania:petal_6"
+            TAG_String (8) (''): "botania:petal_5"
+            TAG_String (8) (''): "botania:petal_4"
+            TAG_String (8) (''): "botania:petal_3"
+            TAG_String (8) (''): "botania:petal_2"
+            TAG_String (8) (''): "botania:petal_15"
+            TAG_String (8) (''): "botania:petal_14"
+            TAG_String (8) (''): "botania:petal_13"
+            TAG_String (8) (''): "botania:petal_12"
+            TAG_String (8) (''): "botania:petal_11"
+            TAG_String (8) (''): "botania:petal_10"
+            TAG_String (8) (''): "botania:petal_1"
+            TAG_String (8) (''): "botania:petal_0"
+            TAG_String (8) (''): "botania:pestleandmortar"
+            TAG_String (8) (''): "botania:miniisland_11"
+            TAG_String (8) (''): "botania:manatablet"
+            TAG_String (8) (''): "botania:manaresource_6"
+            TAG_String (8) (''): "botania:manaresource_3"
+            TAG_String (8) (''): "botania:grasshorn_0"
+            TAG_String (8) (''): "botania:garden_of_glass/spreader_0"
+            TAG_String (8) (''): "botania:garden_of_glass/pebble_to_cobblestone"
+            TAG_String (8) (''): "botania:garden_of_glass/fertilizer_powder"
+            TAG_String (8) (''): "botania:flowerbag"
+            TAG_String (8) (''): "botania:fertilizer_dye"
+            TAG_String (8) (''): "botania:dye_9"
+            TAG_String (8) (''): "botania:dye_8"
+            TAG_String (8) (''): "botania:dye_7"
+            TAG_String (8) (''): "botania:dye_6"
+            TAG_String (8) (''): "botania:dye_5"
+            TAG_String (8) (''): "botania:dye_2"
+            TAG_String (8) (''): "botania:dye_15"
+            TAG_String (8) (''): "botania:dye_13"
+            TAG_String (8) (''): "botania:dye_12"
+            TAG_String (8) (''): "botania:dye_11"
+            TAG_String (8) (''): "botania:dye_10"
+            TAG_String (8) (''): "botania:dye_1"
+            TAG_String (8) (''): "botania:dye_0"
+            TAG_String (8) (''): "botania:altar_0"
+            TAG_String (8) (''): "tconstruct:gadgets/stone/stone_rod"
+            TAG_String (8) (''): "tconstruct:common/book"
+            TAG_String (8) (''): "tconstruct:smeltery/smeltery_controller"
+            TAG_String (8) (''): "tconstruct:smeltery/grout"
+            TAG_String (8) (''): "tconstruct:tools/book"
+            TAG_String (8) (''): "tconstruct:tools/pattern"
+            TAG_String (8) (''): "tconstruct:tools/table/stencil_table"
+            TAG_String (8) (''): "tconstruct:tools/table/chest/pattern"
+            TAG_String (8) (''): "tconstruct:tools/table/tool_station"
+            TAG_String (8) (''): "tconstruct:tools/table/part_builder"
+            TAG_String (8) (''): "tconstruct:tools/table/crafting_station"
+            TAG_String (8) (''): "tconstruct:tools/materials/silky_jewel"
+            TAG_String (8) (''): "tconstruct:tools/materials/silky_cloth"
+            TAG_String (8) (''): "ceramics:uncrafting/clay_block"
+            TAG_String (8) (''): "ceramics:tools/unfired_clay_bucket"
+            TAG_String (8) (''): "ceramics:faucet"
+            TAG_String (8) (''): "ceramics:decoration/unfired_porcelain_bone_meal"
+            TAG_String (8) (''): "exnihilocreatio:block_barrel1"
+            TAG_String (8) (''): "exnihilocreatio:crook_iron"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_3"
+            TAG_String (8) (''): "exnihilocreatio:sieve"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_4"
+            TAG_String (8) (''): "exnihilocreatio:hammer_iron"
+            TAG_String (8) (''): "exnihilocreatio:hammer_stone"
+            TAG_String (8) (''): "exnihilocreatio:crucible_wood"
+            TAG_String (8) (''): "exnihilocreatio:crook_wood"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_1"
+            TAG_String (8) (''): "exnihilocreatio:block_crucible_0"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_2"
+            TAG_String (8) (''): "exnihilocreatio:block_barrel0"
+            TAG_String (8) (''): "ironchest:upgrade/chest/wood_iron_chest_upgrade"
+            TAG_String (8) (''): "ironchest:upgrade/chest/iron_gold_chest_upgrade"
+            TAG_String (8) (''): "ironchest:upgrade/chest/gold_diamond_chest_upgrade"
+            TAG_String (8) (''): "mysticalagriculture:core/superium_furnace"
+            TAG_String (8) (''): "mysticalagriculture:core/prudentium_furnace"
+            TAG_String (8) (''): "mysticalagriculture:core/master_infusion_crystal"
+            TAG_String (8) (''): "mysticalagriculture:core/intermedium_furnace"
+            TAG_String (8) (''): "mysticalagriculture:core/infusion_crystal"
+            TAG_String (8) (''): "mysticalagriculture:core/inferium_furnace"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/supremium_essence_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/superium_essence_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/storage/superium_essence_block_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/storage/prudentium_essence_block_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/storage/intermedium_essence_block_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/storage/inferium_essence_block_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/prudentium_essence_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/intermedium_essence_to"
+            TAG_String (8) (''): "storagedrawers:upgrade_template"
+            TAG_String (8) (''): "storagedrawers:upgrade_storage_diamond"
+            TAG_String (8) (''): "storagedrawers:packing_tape"
+            TAG_String (8) (''): "storagedrawers:controller"
+            TAG_String (8) (''): "storagedrawers:compacting_drawer"
+            TAG_String (8) (''): "teslacorelib:machine_case"
+            TAG_String (8) (''): "tcomplement:melter/porcelain_tank"
+            TAG_String (8) (''): "tcomplement:melter/porcelain_melter"
+            TAG_String (8) (''): "tcomplement:ceramics/porcelain_table"
+            TAG_String (8) (''): "tcomplement:ceramics/porcelain_basin"
+            TAG_String (8) (''): "thaumcraft:salismundus"
+            TAG_String (8) (''): "chisel:chisel_iron"
+            TAG_String (8) (''): "chisel:chisel_diamond"
+            TAG_String (8) (''): "darkutils:vector_normal"
+            TAG_String (8) (''): "storagedrawers:basicdrawers_fulldrawers1_oak"
+            TAG_String (8) (''): "storagedrawers:basicdrawers_fulldrawers4_oak"
+            TAG_String (8) (''): "agricraft:combine_nugget_diamond"
+            TAG_String (8) (''): "betterbuilderswands:recipewanddiamond"
+            TAG_String (8) (''): "mysticalagriculture:crafting"
+            TAG_String (8) (''): "mysticalagriculture:crafting_7"
+            TAG_String (8) (''): "mysticalagriculture:crafting_8"
+            TAG_String (8) (''): "mysticalagriculture:crafting_9"
+            TAG_String (8) (''): "mysticalagriculture:tier1_inferium_seeds"
+            TAG_String (8) (''): "mysticalagriculture:stone_seeds"
+            TAG_String (8) (''): "mysticalagriculture:dirt_seeds"
+            TAG_String (8) (''): "mysticalagriculture:nature_seeds"
+            TAG_String (8) (''): "mysticalagriculture:wood_seeds"
+            TAG_String (8) (''): "mysticalagriculture:fire_seeds"
+            TAG_String (8) (''): "mysticalagriculture:coal_seeds"
+            TAG_String (8) (''): "mysticalagriculture:dirt"
+            TAG_String (8) (''): "mysticalagriculture:gravel"
+            TAG_String (8) (''): "mysticalagriculture:log"
+            TAG_String (8) (''): "mysticalagriculture:sand"
+            TAG_String (8) (''): "mysticalagriculture:coal"
+            TAG_String (8) (''): "thermalfoundation:material_61"
+            TAG_String (8) (''): "tp:ironfurnace"
+            TAG_String (8) (''): "crafttweaker:ct_shaped-1692343374"
+            TAG_String (8) (''): "crafttweaker:ct_shaped-184584129"
+            TAG_String (8) (''): "crafttweaker:ct_shaped1132138182"
+        }
+        TAG_Byte (1) ('isFilteringCraftable'): 0
+        TAG_List (9) ('toBeDisplayed') (172 entries of TAG_String (8))
+        {
+            TAG_String (8) (''): "minecraft:white_bed"
+            TAG_String (8) (''): "minecraft:iron_sword"
+            TAG_String (8) (''): "minecraft:iron_pickaxe"
+            TAG_String (8) (''): "minecraft:iron_nugget"
+            TAG_String (8) (''): "minecraft:iron_ingot_from_nuggets"
+            TAG_String (8) (''): "minecraft:iron_ingot_from_block"
+            TAG_String (8) (''): "minecraft:iron_hoe"
+            TAG_String (8) (''): "minecraft:iron_block"
+            TAG_String (8) (''): "minecraft:iron_bars"
+            TAG_String (8) (''): "minecraft:iron_axe"
+            TAG_String (8) (''): "minecraft:hopper"
+            TAG_String (8) (''): "minecraft:gold_ingot_from_nuggets"
+            TAG_String (8) (''): "minecraft:gold_ingot_from_block"
+            TAG_String (8) (''): "minecraft:glowstone"
+            TAG_String (8) (''): "minecraft:glass_pane"
+            TAG_String (8) (''): "minecraft:glass_bottle"
+            TAG_String (8) (''): "minecraft:furnace"
+            TAG_String (8) (''): "minecraft:flint_and_steel"
+            TAG_String (8) (''): "minecraft:crafting_table"
+            TAG_String (8) (''): "minecraft:comparator"
+            TAG_String (8) (''): "minecraft:cobblestone_slab"
+            TAG_String (8) (''): "minecraft:chest"
+            TAG_String (8) (''): "minecraft:bucket"
+            TAG_String (8) (''): "minecraft:bowl"
+            TAG_String (8) (''): "minecraft:bookshelf"
+            TAG_String (8) (''): "minecraft:bone_meal_from_bone"
+            TAG_String (8) (''): "extrautils2:shortcut_stick"
+            TAG_String (8) (''): "extrautils2:transfer_pipes"
+            TAG_String (8) (''): "extrautils2:transfer_node_items"
+            TAG_String (8) (''): "extrautils2:spike_iron"
+            TAG_String (8) (''): "agricraft:crop_sticks"
+            TAG_String (8) (''): "agricraft:tank"
+            TAG_String (8) (''): "agricraft:water_channel_full"
+            TAG_String (8) (''): "agricraft:rake_wood"
+            TAG_String (8) (''): "agricraft:sprinkler"
+            TAG_String (8) (''): "agricraft:water_channel_full_inverse"
+            TAG_String (8) (''): "agricraft:clipper"
+            TAG_String (8) (''): "agricraft:journal"
+            TAG_String (8) (''): "agricraft:seed_analyzer"
+            TAG_String (8) (''): "agricraft:water_channel"
+            TAG_String (8) (''): "bettershears:stone_shears"
+            TAG_String (8) (''): "botania:wands/twigwand_blue_cyan"
+            TAG_String (8) (''): "botania:shinyflower_11"
+            TAG_String (8) (''): "botania:runealtar"
+            TAG_String (8) (''): "botania:pool_0"
+            TAG_String (8) (''): "botania:petal_9"
+            TAG_String (8) (''): "botania:petal_8"
+            TAG_String (8) (''): "botania:petal_7"
+            TAG_String (8) (''): "botania:petal_6"
+            TAG_String (8) (''): "botania:petal_5"
+            TAG_String (8) (''): "botania:petal_4"
+            TAG_String (8) (''): "botania:petal_3"
+            TAG_String (8) (''): "botania:petal_2"
+            TAG_String (8) (''): "botania:petal_15"
+            TAG_String (8) (''): "botania:petal_14"
+            TAG_String (8) (''): "botania:petal_13"
+            TAG_String (8) (''): "botania:petal_12"
+            TAG_String (8) (''): "botania:petal_11"
+            TAG_String (8) (''): "botania:petal_10"
+            TAG_String (8) (''): "botania:petal_1"
+            TAG_String (8) (''): "botania:petal_0"
+            TAG_String (8) (''): "botania:pestleandmortar"
+            TAG_String (8) (''): "botania:miniisland_11"
+            TAG_String (8) (''): "botania:manatablet"
+            TAG_String (8) (''): "botania:manaresource_6"
+            TAG_String (8) (''): "botania:manaresource_3"
+            TAG_String (8) (''): "botania:grasshorn_0"
+            TAG_String (8) (''): "botania:garden_of_glass/spreader_0"
+            TAG_String (8) (''): "botania:garden_of_glass/pebble_to_cobblestone"
+            TAG_String (8) (''): "botania:garden_of_glass/fertilizer_powder"
+            TAG_String (8) (''): "botania:flowerbag"
+            TAG_String (8) (''): "botania:fertilizer_dye"
+            TAG_String (8) (''): "botania:dye_9"
+            TAG_String (8) (''): "botania:dye_8"
+            TAG_String (8) (''): "botania:dye_7"
+            TAG_String (8) (''): "botania:dye_6"
+            TAG_String (8) (''): "botania:dye_5"
+            TAG_String (8) (''): "botania:dye_2"
+            TAG_String (8) (''): "botania:dye_15"
+            TAG_String (8) (''): "botania:dye_13"
+            TAG_String (8) (''): "botania:dye_12"
+            TAG_String (8) (''): "botania:dye_11"
+            TAG_String (8) (''): "botania:dye_10"
+            TAG_String (8) (''): "botania:dye_1"
+            TAG_String (8) (''): "botania:dye_0"
+            TAG_String (8) (''): "botania:altar_0"
+            TAG_String (8) (''): "tconstruct:gadgets/stone/stone_rod"
+            TAG_String (8) (''): "tconstruct:common/book"
+            TAG_String (8) (''): "tconstruct:smeltery/smeltery_controller"
+            TAG_String (8) (''): "tconstruct:smeltery/grout"
+            TAG_String (8) (''): "tconstruct:tools/book"
+            TAG_String (8) (''): "tconstruct:tools/pattern"
+            TAG_String (8) (''): "tconstruct:tools/table/stencil_table"
+            TAG_String (8) (''): "tconstruct:tools/table/chest/pattern"
+            TAG_String (8) (''): "tconstruct:tools/table/tool_station"
+            TAG_String (8) (''): "tconstruct:tools/table/part_builder"
+            TAG_String (8) (''): "tconstruct:tools/table/crafting_station"
+            TAG_String (8) (''): "tconstruct:tools/materials/silky_jewel"
+            TAG_String (8) (''): "tconstruct:tools/materials/silky_cloth"
+            TAG_String (8) (''): "ceramics:uncrafting/clay_block"
+            TAG_String (8) (''): "ceramics:tools/unfired_clay_bucket"
+            TAG_String (8) (''): "ceramics:faucet"
+            TAG_String (8) (''): "ceramics:decoration/unfired_porcelain_bone_meal"
+            TAG_String (8) (''): "exnihilocreatio:block_barrel1"
+            TAG_String (8) (''): "exnihilocreatio:crook_iron"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_3"
+            TAG_String (8) (''): "exnihilocreatio:sieve"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_4"
+            TAG_String (8) (''): "exnihilocreatio:hammer_iron"
+            TAG_String (8) (''): "exnihilocreatio:hammer_stone"
+            TAG_String (8) (''): "exnihilocreatio:crucible_wood"
+            TAG_String (8) (''): "exnihilocreatio:crook_wood"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_1"
+            TAG_String (8) (''): "exnihilocreatio:block_crucible_0"
+            TAG_String (8) (''): "exnihilocreatio:item_mesh_2"
+            TAG_String (8) (''): "exnihilocreatio:block_barrel0"
+            TAG_String (8) (''): "ironchest:upgrade/chest/wood_iron_chest_upgrade"
+            TAG_String (8) (''): "ironchest:upgrade/chest/iron_gold_chest_upgrade"
+            TAG_String (8) (''): "ironchest:upgrade/chest/gold_diamond_chest_upgrade"
+            TAG_String (8) (''): "mysticalagriculture:core/superium_furnace"
+            TAG_String (8) (''): "mysticalagriculture:core/prudentium_furnace"
+            TAG_String (8) (''): "mysticalagriculture:core/master_infusion_crystal"
+            TAG_String (8) (''): "mysticalagriculture:core/intermedium_furnace"
+            TAG_String (8) (''): "mysticalagriculture:core/infusion_crystal"
+            TAG_String (8) (''): "mysticalagriculture:core/inferium_furnace"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/supremium_essence_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/superium_essence_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/storage/superium_essence_block_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/storage/prudentium_essence_block_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/storage/intermedium_essence_block_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/storage/inferium_essence_block_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/prudentium_essence_to"
+            TAG_String (8) (''): "mysticalagriculture:core/compression/intermedium_essence_to"
+            TAG_String (8) (''): "storagedrawers:upgrade_template"
+            TAG_String (8) (''): "storagedrawers:upgrade_storage_diamond"
+            TAG_String (8) (''): "storagedrawers:packing_tape"
+            TAG_String (8) (''): "storagedrawers:controller"
+            TAG_String (8) (''): "storagedrawers:compacting_drawer"
+            TAG_String (8) (''): "teslacorelib:machine_case"
+            TAG_String (8) (''): "tcomplement:melter/porcelain_tank"
+            TAG_String (8) (''): "tcomplement:melter/porcelain_melter"
+            TAG_String (8) (''): "tcomplement:ceramics/porcelain_table"
+            TAG_String (8) (''): "tcomplement:ceramics/porcelain_basin"
+            TAG_String (8) (''): "thaumcraft:salismundus"
+            TAG_String (8) (''): "chisel:chisel_iron"
+            TAG_String (8) (''): "chisel:chisel_diamond"
+            TAG_String (8) (''): "darkutils:vector_normal"
+            TAG_String (8) (''): "storagedrawers:basicdrawers_fulldrawers1_oak"
+            TAG_String (8) (''): "storagedrawers:basicdrawers_fulldrawers4_oak"
+            TAG_String (8) (''): "agricraft:combine_nugget_diamond"
+            TAG_String (8) (''): "betterbuilderswands:recipewanddiamond"
+            TAG_String (8) (''): "mysticalagriculture:crafting"
+            TAG_String (8) (''): "mysticalagriculture:crafting_7"
+            TAG_String (8) (''): "mysticalagriculture:crafting_8"
+            TAG_String (8) (''): "mysticalagriculture:crafting_9"
+            TAG_String (8) (''): "mysticalagriculture:tier1_inferium_seeds"
+            TAG_String (8) (''): "mysticalagriculture:stone_seeds"
+            TAG_String (8) (''): "mysticalagriculture:dirt_seeds"
+            TAG_String (8) (''): "mysticalagriculture:nature_seeds"
+            TAG_String (8) (''): "mysticalagriculture:wood_seeds"
+            TAG_String (8) (''): "mysticalagriculture:fire_seeds"
+            TAG_String (8) (''): "mysticalagriculture:coal_seeds"
+            TAG_String (8) (''): "mysticalagriculture:dirt"
+            TAG_String (8) (''): "mysticalagriculture:gravel"
+            TAG_String (8) (''): "mysticalagriculture:log"
+            TAG_String (8) (''): "mysticalagriculture:sand"
+            TAG_String (8) (''): "mysticalagriculture:coal"
+            TAG_String (8) (''): "thermalfoundation:material_61"
+            TAG_String (8) (''): "tp:ironfurnace"
+            TAG_String (8) (''): "crafttweaker:ct_shaped-1692343374"
+            TAG_String (8) (''): "crafttweaker:ct_shaped-184584129"
+            TAG_String (8) (''): "crafttweaker:ct_shaped1132138182"
+        }
+        TAG_Byte (1) ('isGuiOpen'): 0
+    }
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Compound (10) ('nuclearcraft:capability_entity_rads')
+        {
+            TAG_Byte (1) ('consumed'): 0
+            TAG_Double (6) ('radiationResistance'): 0.0
+            TAG_Double (6) ('totalRads'): 2.6428360597343326E-6
+            TAG_Double (6) ('radawayBuffer'): 0.0
+            TAG_Byte (1) ('shouldWarn'): 0
+            TAG_Double (6) ('radiationLevel'): 4.655380262960668E-12
+            TAG_Double (6) ('poisonBuffer'): 0.0
+            TAG_Double (6) ('radXCooldown'): 0.0
+            TAG_Byte (1) ('radXWoreOff'): 0
+            TAG_Double (6) ('radawayCooldown'): 0.0
+            TAG_Double (6) ('radawayBufferSlow'): 0.0
+            TAG_Double (6) ('radiationImmunityTime'): 0.0
+        }
+        TAG_List (9) ('tinkertoolleveling:entityxp') (0 entries of TAG_End (0))
+        {
+        }
+        TAG_Compound (10) ('thaumcraft:warp')
+        {
+            TAG_Int (3) ('counter'): 0
+            TAG_Int_Array (11) ('warp') (3 values)
+                    0: 0x00000000 (          0)
+                    1: 0x00000000 (          0)
+                    2: 0x00000000 (          0)
+        }
+        TAG_Compound (10) ('theoneprobe:properties')
+        {
+            TAG_Byte (1) ('gotNote'): 1
+        }
+        TAG_Compound (10) ('twilightforest:cap_shield')
+        {
+            TAG_Int (3) ('permshields'): 0
+            TAG_Int (3) ('tempshields'): 0
+        }
+        TAG_Compound (10) ('mcjtylib_ng:preferences')
+        {
+            TAG_String (8) ('style'): "flat gradient"
+            TAG_Int (3) ('buffY'): 2
+            TAG_Int (3) ('buffX'): 2
+        }
+        TAG_Compound (10) ('tombstone:cap_tombstone')
+        {
+            TAG_Long (4) ('next_reset_perks'): -1
+            TAG_List (9) ('perks') (0 entries of TAG_End (0))
+            {
+            }
+            TAG_Long (4) ('next_pray'): -1
+            TAG_Long (4) ('knowledge'): 0
+        }
+        TAG_Compound (10) ('baubles:container')
+        {
+            TAG_Int (3) ('Size'): 7
+            TAG_List (9) ('Items') (0 entries of TAG_End (0))
+            {
+            }
+        }
+        TAG_Compound (10) ('thaumcraft:knowledge')
+        {
+            TAG_List (9) ('research') (10 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_String (8) ('key'): "m_walker"
+                }
+                TAG_Compound (10) ('')
+                {
+                    TAG_String (8) ('key'): "m_jumper"
+                }
+                TAG_Compound (10) ('')
+                {
+                    TAG_String (8) ('key'): "m_hellandback"
+                }
+                TAG_Compound (10) ('')
+                {
+                    TAG_String (8) ('key'): "!gotthaumonomicon"
+                }
+                TAG_Compound (10) ('')
+                {
+                    TAG_Int (3) ('stage'): 1
+                    TAG_String (8) ('key'): "FIRSTSTEPS"
+                }
+                TAG_Compound (10) ('')
+                {
+                    TAG_Int (3) ('stage'): 2
+                    TAG_String (8) ('key'): "KNOWLEDGETYPES"
+                }
+                TAG_Compound (10) ('')
+                {
+                    TAG_String (8) ('key'): "m_swimmer"
+                }
+                TAG_Compound (10) ('')
+                {
+                    TAG_String (8) ('key'): "!gotcrystals"
+                }
+                TAG_Compound (10) ('')
+                {
+                    TAG_String (8) ('key'): "m_runner"
+                }
+                TAG_Compound (10) ('')
+                {
+                    TAG_String (8) ('key'): "!gotdream"
+                }
+            }
+            TAG_List (9) ('knowledge') (0 entries of TAG_End (0))
+            {
+            }
+        }
+        TAG_Compound (10) ('tconstruct:piggyback')
+        {
+        }
+    }
+    TAG_Int (3) ('XpTotal'): 852
+    TAG_Int (3) ('SpawnY'): 81
+    TAG_Int (3) ('SpawnZ'): -259
+    TAG_Int (3) ('SpawnX'): 765
+    TAG_Byte (1) ('HasSpawnDimensionSet'): 0
+    TAG_Short (2) ('Air'): 300
+    TAG_Compound (10) ('ForgeDataVersion')
+    {
+        TAG_Int (3) ('minecraft'): 1343
+        TAG_Int (3) ('ceramics'): 1
+        TAG_Int (3) ('tcomplement'): 1
+        TAG_Int (3) ('astralsorcery'): 1
+        TAG_Int (3) ('tombstone'): 2
+        TAG_Int (3) ('twilightforest'): 1
+        TAG_Int (3) ('xnet'): 2
+    }
+    TAG_Int (3) ('Score'): 274
+    TAG_List (9) ('Pos') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 768.9381057352698
+        TAG_Double (6) (''): 80.875
+        TAG_Double (6) (''): -256.7421712409116
+    }
+    TAG_Float (5) ('XpP'): 0.29268283
+    TAG_List (9) ('EnderItems') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Int (3) ('DataVersion'): 1343
+    TAG_Short (2) ('HurtTime'): 0
+    TAG_Int (3) ('SelectedItemSlot'): 5
+    TAG_List (9) ('Inventory') (28 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 0
+            TAG_String (8) ('id'): "animalcrops:seeds"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_String (8) ('entity'): "minecraft:cow"
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 1
+            TAG_String (8) ('id'): "animalcrops:seeds"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_String (8) ('entity'): "minecraft:chicken"
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 2
+            TAG_String (8) ('id'): "animalcrops:seeds"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_String (8) ('entity'): "minecraft:donkey"
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 3
+            TAG_String (8) ('id'): "animalcrops:seeds"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_String (8) ('entity'): "minecraft:pig"
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 4
+            TAG_String (8) ('id'): "animalcrops:seeds"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_String (8) ('entity'): "minecraft:sheep"
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 5
+            TAG_String (8) ('id'): "animalcrops:seeds"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_String (8) ('entity'): "minecraft:donkey"
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 6
+            TAG_String (8) ('id'): "animalcrops:seeds"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_String (8) ('entity'): "minecraft:horse"
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 7
+            TAG_String (8) ('id'): "animalcrops:seeds"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_String (8) ('entity'): "minecraft:llama"
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 8
+            TAG_String (8) ('id'): "animalcrops:seeds"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_String (8) ('entity'): "minecraft:mooshroom"
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 9
+            TAG_String (8) ('id'): "advancementbook:advancement_book"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 11
+            TAG_String (8) ('id'): "chisel:cobblestone"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 7
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 12
+            TAG_String (8) ('id'): "minecraft:torch"
+            TAG_Byte (1) ('Count'): 27
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 13
+            TAG_String (8) ('id'): "agricraft:crop_sticks"
+            TAG_Byte (1) ('Count'): 46
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 17
+            TAG_Compound (10) ('ForgeCaps')
+            {
+                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                {
+                }
+            }
+            TAG_String (8) ('id'): "chisel:chisel_diamond"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_Compound (10) ('chiseldata')
+                {
+                    TAG_Compound (10) ('target')
+                    {
+                        TAG_String (8) ('id'): "minecraft:air"
+                        TAG_Byte (1) ('Count'): 0
+                        TAG_Short (2) ('Damage'): 0
+                    }
+                }
+            }
+            TAG_Short (2) ('Damage'): 640
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 18
+            TAG_Compound (10) ('ForgeCaps')
+            {
+                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                {
+                }
+            }
+            TAG_String (8) ('id'): "betterbuilderswands:wanddiamond"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_Compound (10) ('bbw')
+                {
+                    TAG_String (8) ('lastBlock'): "chisel:cobblestone[variation=7]"
+                    TAG_String (8) ('lastItemBlock'): "chisel:cobblestone"
+                    TAG_Int_Array (11) ('lastPlaced') (18 values)
+                              0: 0x00000304 (        772) 0x00000050 (         80) 0xFFFFFEF3 (       -269) 0x00000305 (        773)
+                              4: 0x00000050 (         80) 0xFFFFFEF3 (       -269) 0x00000303 (        771) 0x00000050 (         80)
+                              8: 0xFFFFFEF3 (       -269) 0x00000302 (        770) 0x00000050 (         80) 0xFFFFFEF3 (       -269)
+                             12: 0x00000301 (        769) 0x00000050 (         80) 0xFFFFFEF3 (       -269) 0x00000300 (        768)
+                             16: 0x00000050 (         80) 0xFFFFFEF3 (       -269)
+                    TAG_Int (3) ('lastBlockMeta'): 7
+                    TAG_Short (2) ('fluidmask'): 1
+                    TAG_Int (3) ('lastPerBlock'): 1
+                    TAG_Short (2) ('mask'): 7
+                }
+            }
+            TAG_Short (2) ('Damage'): 674
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 19
+            TAG_Compound (10) ('ForgeCaps')
+            {
+                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                {
+                }
+            }
+            TAG_String (8) ('id'): "exnihilocreatio:hammer_iron"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 351
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 20
+            TAG_Compound (10) ('ForgeCaps')
+            {
+                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                {
+                }
+            }
+            TAG_String (8) ('id'): "tconstruct:pickaxe"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_List (9) ('ench') (1 entries of TAG_Compound (10))
+                {
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Short (2) ('lvl'): 1
+                        TAG_Short (2) ('id'): 33
+                    }
+                }
+                TAG_Compound (10) ('StatsOriginal')
+                {
+                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                    TAG_Float (5) ('MiningSpeed'): 6.0
+                    TAG_Int (3) ('FreeModifiers'): 3
+                    TAG_Int (3) ('Durability'): 260
+                    TAG_Int (3) ('HarvestLevel'): 2
+                    TAG_Float (5) ('Attack'): 4.0
+                }
+                TAG_Compound (10) ('Stats')
+                {
+                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                    TAG_Float (5) ('MiningSpeed'): 3.0
+                    TAG_Int (3) ('FreeModifiers'): 4
+                    TAG_Int (3) ('Durability'): 260
+                    TAG_Int (3) ('HarvestLevel'): 4
+                    TAG_Float (5) ('Attack'): 1.0
+                    TAG_Byte (1) ('Broken'): 0
+                }
+                TAG_Compound (10) ('Special')
+                {
+                    TAG_List (9) ('Categories') (3 entries of TAG_String (8))
+                    {
+                        TAG_String (8) (''): "tool"
+                        TAG_String (8) (''): "aoe"
+                        TAG_String (8) (''): "harvest"
+                    }
+                    TAG_Int (3) ('RepairCount'): 8
+                }
+                TAG_Compound (10) ('TinkerData')
+                {
+                    TAG_Int (3) ('UsedModifiers'): 1
+                    TAG_List (9) ('Materials') (3 entries of TAG_String (8))
+                    {
+                        TAG_String (8) (''): "copper"
+                        TAG_String (8) (''): "iron"
+                        TAG_String (8) (''): "paper"
+                    }
+                    TAG_List (9) ('Modifiers') (3 entries of TAG_String (8))
+                    {
+                        TAG_String (8) (''): "toolleveling"
+                        TAG_String (8) (''): "silktouch"
+                        TAG_String (8) (''): "fortifyobsidian"
+                    }
+                }
+                TAG_List (9) ('Modifiers') (6 entries of TAG_Compound (10))
+                {
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_String (8) ('identifier'): "established"
+                        TAG_Int (3) ('color'): -1204473
+                        TAG_Int (3) ('level'): 1
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_String (8) ('identifier'): "magnetic"
+                        TAG_Int (3) ('color'): -3487030
+                        TAG_Int (3) ('level'): 2
+                        TAG_Byte (1) ('magnetic2'): 1
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_String (8) ('identifier'): "writable"
+                        TAG_Int (3) ('color'): -1
+                        TAG_Int (3) ('level'): 1
+                        TAG_Byte (1) ('writable1'): 1
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_String (8) ('identifier'): "toolleveling"
+                        TAG_Int (3) ('color'): 16777215
+                        TAG_Int (3) ('level'): 2
+                        TAG_Int (3) ('xp'): 598
+                        TAG_Int (3) ('bonus_modifiers'): 1
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_String (8) ('identifier'): "silktouch"
+                        TAG_Int (3) ('color'): 16507531
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_String (8) ('identifier'): "fortifyobsidian"
+                        TAG_Int (3) ('color'): -10478396
+                    }
+                }
+                TAG_List (9) ('Traits') (4 entries of TAG_String (8))
+                {
+                    TAG_String (8) (''): "established"
+                    TAG_String (8) (''): "magnetic2"
+                    TAG_String (8) (''): "writable1"
+                    TAG_String (8) (''): "toolleveling"
+                }
+            }
+            TAG_Short (2) ('Damage'): 126
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 21
+            TAG_Compound (10) ('ForgeCaps')
+            {
+                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                {
+                }
+            }
+            TAG_String (8) ('id'): "thaumcraft:thaumonomicon"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 25
+            TAG_String (8) ('id'): "minecraft:dirt"
+            TAG_Byte (1) ('Count'): 45
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 26
+            TAG_String (8) ('id'): "minecraft:bucket"
+            TAG_Byte (1) ('Count'): 4
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 28
+            TAG_Compound (10) ('ForgeCaps')
+            {
+                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                {
+                }
+            }
+            TAG_String (8) ('id'): "tconstruct:mattock"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_Compound (10) ('StatsOriginal')
+                {
+                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                    TAG_Int (3) ('HarvestLevelAxe'): 2
+                    TAG_Float (5) ('MiningSpeed'): 6.0
+                    TAG_Int (3) ('FreeModifiers'): 3
+                    TAG_Int (3) ('HarvestLevelShovel'): 2
+                    TAG_Int (3) ('Durability'): 244
+                    TAG_Int (3) ('HarvestLevel'): 2
+                    TAG_Float (5) ('Attack'): 7.0
+                }
+                TAG_Compound (10) ('Stats')
+                {
+                    TAG_Float (5) ('AttackSpeedMultiplier'): 1.0
+                    TAG_Int (3) ('HarvestLevelAxe'): 2
+                    TAG_Float (5) ('MiningSpeed'): 6.0
+                    TAG_Int (3) ('FreeModifiers'): 3
+                    TAG_Int (3) ('HarvestLevelShovel'): 2
+                    TAG_Int (3) ('Durability'): 244
+                    TAG_Int (3) ('HarvestLevel'): 2
+                    TAG_Float (5) ('Attack'): 7.0
+                }
+                TAG_Compound (10) ('Special')
+                {
+                    TAG_List (9) ('Categories') (3 entries of TAG_String (8))
+                    {
+                        TAG_String (8) (''): "tool"
+                        TAG_String (8) (''): "harvest"
+                        TAG_String (8) (''): "aoe"
+                    }
+                }
+                TAG_Compound (10) ('TinkerData')
+                {
+                    TAG_List (9) ('Materials') (3 entries of TAG_String (8))
+                    {
+                        TAG_String (8) (''): "copper"
+                        TAG_String (8) (''): "iron"
+                        TAG_String (8) (''): "iron"
+                    }
+                    TAG_List (9) ('Modifiers') (1 entries of TAG_String (8))
+                    {
+                        TAG_String (8) (''): "toolleveling"
+                    }
+                }
+                TAG_List (9) ('Modifiers') (3 entries of TAG_Compound (10))
+                {
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_String (8) ('identifier'): "established"
+                        TAG_Int (3) ('color'): -1204473
+                        TAG_Int (3) ('level'): 1
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_String (8) ('identifier'): "magnetic"
+                        TAG_Int (3) ('color'): -3487030
+                        TAG_Int (3) ('level'): 2
+                        TAG_Byte (1) ('magnetic2'): 1
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_String (8) ('identifier'): "toolleveling"
+                        TAG_Int (3) ('color'): 16777215
+                        TAG_Int (3) ('level'): 1
+                        TAG_Int (3) ('xp'): 55
+                        TAG_Int (3) ('bonus_modifiers'): 0
+                    }
+                }
+                TAG_List (9) ('Traits') (3 entries of TAG_String (8))
+                {
+                    TAG_String (8) (''): "established"
+                    TAG_String (8) (''): "magnetic2"
+                    TAG_String (8) (''): "toolleveling"
+                }
+            }
+            TAG_Short (2) ('Damage'): 53
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 29
+            TAG_Compound (10) ('ForgeCaps')
+            {
+                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                {
+                }
+            }
+            TAG_String (8) ('id'): "agricraft:clipper"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 30
+            TAG_String (8) ('id'): "minecraft:emerald"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 31
+            TAG_String (8) ('id'): "minecraft:baked_potato"
+            TAG_Byte (1) ('Count'): 61
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 32
+            TAG_String (8) ('id'): "minecraft:coal"
+            TAG_Byte (1) ('Count'): 26
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 33
+            TAG_String (8) ('id'): "minecraft:iron_ingot"
+            TAG_Byte (1) ('Count'): 7
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 34
+            TAG_Compound (10) ('ForgeCaps')
+            {
+                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                {
+                }
+            }
+            TAG_String (8) ('id'): "botania:grasshorn"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 35
+            TAG_Compound (10) ('ForgeCaps')
+            {
+                TAG_Compound (10) ('astralsorcery:cap_item_amulet_holder')
+                {
+                }
+            }
+            TAG_String (8) ('id'): "minecraft:iron_sword"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 123
+        }
+    }
+    TAG_Int (3) ('foodTickTimer'): 0
+    TAG_Compound (10) ('ForgeData')
+    {
+        TAG_Compound (10) ('PlayerPersisted')
+        {
+            TAG_Byte (1) ('tconstruct.spawned_book'): 1
+            TAG_Compound (10) ('guideapi')
+            {
+                TAG_Byte (1) ('hasInitialguide.title'): 1
+            }
+            TAG_Compound (10) ('XU2')
+            {
+                TAG_Int (3) ('Frequency'): -1919673280
+            }
+            TAG_Byte (1) ('twilightforest_banished'): 1
+            TAG_Compound (10) ('technom')
+            {
+                TAG_Int (3) ('rexistencelevel'): 1
+                TAG_Int (3) ('existencelevel'): 1
+                TAG_Int (3) ('rtechno:earth'): 0
+                TAG_Int (3) ('existencepower'): 1
+                TAG_Int (3) ('techno:earth'): 1
+            }
+            TAG_Byte (1) ('valkyrielib-digital_guide'): 1
+            TAG_Compound (10) ('Botania_playerKeptDrops')
+            {
+            }
+            TAG_Byte (1) ('Botania-MadeIsland'): 1
+            TAG_Byte (1) ('ftbutilities_starting_items'): 1
+        }
+        TAG_Short (2) ('ftbu_lchunk'): 8293
+    }
+    TAG_Byte (1) ('FallFlying'): 0
+    TAG_Int (3) ('PortalCooldown'): 0
+    TAG_Short (2) ('DeathTime'): 0
+    TAG_Int (3) ('XpSeed'): -526556722
+    TAG_Int (3) ('playerGameType'): 1
+    TAG_Byte (1) ('seenCredits'): 0
+    TAG_Compound (10) ('enteredNetherPosition')
+    {
+        TAG_Double (6) ('x'): 642.6804365746202
+        TAG_Double (6) ('y'): 94.0
+        TAG_Double (6) ('z'): -369.7122161968159
+    }
+    TAG_List (9) ('Motion') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.0784000015258789
+        TAG_Double (6) (''): 0.0
+    }
+    TAG_Long (4) ('UUIDLeast'): -6637841816310469199
+    TAG_Float (5) ('Health'): 18.0
+    TAG_Float (5) ('foodSaturationLevel'): 0.0
+    TAG_Byte (1) ('OnGround'): 1
+    TAG_Int (3) ('Dimension'): 0
+    TAG_List (9) ('Rotation') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): -83.20068
+        TAG_Float (5) (''): 20.40003
+    }
+    TAG_Int (3) ('XpLevel'): 24
+    TAG_Byte (1) ('UpdateBlocked'): 0
+    TAG_Long (4) ('UUIDMost'): -3243313976764905608
+    TAG_Byte (1) ('Sleeping'): 0
+    TAG_Short (2) ('Fire'): -20
+    TAG_Int (3) ('foodLevel'): 10
+    TAG_Float (5) ('foodExhaustionLevel'): 0.6900252
+}

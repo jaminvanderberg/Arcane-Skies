@@ -1,0 +1,15 @@
+setIcon(<thaumcraft:arcane_workbench_charger>)
+setTitle("Workbench charger")
+setDescription("Craft a workbench charger to collect vis energy from surrounding chunks.\n\nYou may need to travel to the Twilight Forest in order to find a chunk with enough vis to craft this.")
+
+addParent("triumph:thaumcraft/thaumium")
+setPos(-1041,-206)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/thaumcraft")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("WorkbenchCharger", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:arcane_workbench_charger>);

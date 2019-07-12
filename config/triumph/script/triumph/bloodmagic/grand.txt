@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:soul_gem, meta:4>)
+setTitle("Grand tartaric gem")
+setDescription("Craft a grand tartaric gem.")
+
+addParent("triumph:bloodmagic/greater")
+setPos(-868,-211)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/imbued_slate")
+visibleIf("triumph:bloodmagic/magician_blood_orb")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasGrand", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:soul_gem, meta:4>);

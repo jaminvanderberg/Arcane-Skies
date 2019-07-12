@@ -1,0 +1,15 @@
+setIcon(<erebus:altar_offering>)
+setTitle("The Erebus")
+setDescription("Craft an offering altar to get started with the Erebus.")
+
+addParent("triumph:magic/root")
+setPos(-1265,-206)
+hideLines()
+setFrameType("CHALLENGE")
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("hasOfferingAlter", "minecraft:inventory_changed")
+criteria.addItem(<erebus:altar_offering>);

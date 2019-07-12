@@ -1,0 +1,13 @@
+setIcon(<agricraft:agri_seed, meta:0, nbt:{"agri_analyzed":1,"agri_seed":"resource:aurigold_plant","agri_strength":10,"agri_gain":10,"agri_growth":10}>)
+setTitle("Aurigold seeds")
+setDescription("Mutate ferranum and red seeds to create aurigold seeds.")
+
+addParent("triumph:agricraft/red")
+setPos(-269,91)
+setAnnounceToChat(false)
+visibleIf("triumph:agricraft/root")
+
+//hideLines()
+
+criteria = addCriteria("hasAurigold", "minecraft:inventory_changed")
+criteria.addItem(<agricraft:agri_seed, meta:0, nbt:{"agri_seed":"resource:aurigold_plant"}>)

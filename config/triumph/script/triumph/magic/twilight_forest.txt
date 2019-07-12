@@ -1,0 +1,15 @@
+setIcon(<twilightforest:miniature_structure>)
+setTitle("New Moon")
+setDescription("Create a portal or craft a twilight cake to enter the Twilight Forest.")
+
+addParent("triumph:magic/root")
+setPos(-1189,-206)
+hideLines()
+setFrameType("CHALLENGE")
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("enterTwilightForest", "minecraft:location")
+criteria.setDimID(7);

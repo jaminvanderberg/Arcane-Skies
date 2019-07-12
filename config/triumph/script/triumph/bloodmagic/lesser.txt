@@ -1,0 +1,14 @@
+setIcon(<bloodmagic:soul_gem, meta:1>)
+setTitle("Lesser tartaric gem")
+setDescription("Craft a lesser tartaric gem.")
+
+addParent("triumph:bloodmagic/sentient_sword")
+setPos(-982,-211)
+//hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:magic/blood_magic")
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasLesser", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:soul_gem, meta:1>);

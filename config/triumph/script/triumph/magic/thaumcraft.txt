@@ -1,0 +1,29 @@
+setIcon(<thaumcraft:crystal_essence, nbt:{Aspects:[{amount:1,key:"aer"}]}>)
+setTitle("A funny feeling")
+setDescription("Obtain vis crystals by infusing specific items in your mana pool:\n\nFeather (Aer)\nSugar cane (Aqua)\nCoal (Ignis)\nNether brick (Ordo)\nSandstone (Perditio)\nDirt (Terra)\n\nAlternatively, you may be able to find these crystals in other dimensions.")
+
+addParent("triumph:magic/root")
+setPos(-1152,-206)
+hideLines()
+setFrameType("CHALLENGE")
+visibleIf("triumph:begin/floral")
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("Aer", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:crystal_essence, nbt:{Aspects:[{amount:1,key:"aer"}]}>);
+
+criteria2 = addCriteria("Aqua", "minecraft:inventory_changed")
+criteria2.addItem(<thaumcraft:crystal_essence, nbt:{Aspects:[{amount:1,key:"aqua"}]}>);
+
+criteria3 = addCriteria("Ignis", "minecraft:inventory_changed")
+criteria3.addItem(<thaumcraft:crystal_essence, nbt:{Aspects:[{amount:1,key:"ignis"}]}>);
+
+criteria4 = addCriteria("Ordo", "minecraft:inventory_changed")
+criteria4.addItem(<thaumcraft:crystal_essence, nbt:{Aspects:[{amount:1,key:"ordo"}]}>);
+
+criteria5 = addCriteria("Perditio", "minecraft:inventory_changed")
+criteria5.addItem(<thaumcraft:crystal_essence, nbt:{Aspects:[{amount:1,key:"perditio"}]}>);
+
+criteria6 = addCriteria("Terra", "minecraft:inventory_changed")
+criteria6.addItem(<thaumcraft:crystal_essence, nbt:{Aspects:[{amount:1,key:"terra"}]}>);

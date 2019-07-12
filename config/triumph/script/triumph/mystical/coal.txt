@@ -1,0 +1,12 @@
+setIcon(<mysticalagriculture:coal_essence>)
+setTitle("Coal essence")
+setDescription("Craft coal seeds to obtain coal essence.")
+
+addParent("triumph:mystical/prosperity")
+setPos(-538,56)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Coal essence", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:coal_essence>)

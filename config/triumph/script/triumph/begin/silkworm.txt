@@ -1,0 +1,15 @@
+
+setIcon(<exnihilocreatio:item_material, meta:2>)
+setTitle("I got worms!")
+setDescription("Use a crook on leaves to obtain a silkworm.")
+
+addParent("triumph:begin/crook")
+
+setPos(-70,30)
+alwaysVisible()
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("hasWorm", "minecraft:inventory_changed")
+criteria.addItem(<exnihilocreatio:item_material, meta:2>)

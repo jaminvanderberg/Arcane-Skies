@@ -1,0 +1,15 @@
+setIcon(<bloodmagic:soul_snare>)
+setTitle("Blood for the Blood God")
+setDescription("Craft a rudimentary snare to get started with Blood Magic.")
+
+addParent("triumph:magic/root")
+setPos(-1189,-243)
+hideLines()
+setFrameType("CHALLENGE")
+visibleIf("triumph:begin/floral")
+alwaysHidden()
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("hasSnare", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:soul_snare>);

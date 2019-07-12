@@ -1,0 +1,12 @@
+setIcon(<botania:pestleandmortar>)
+setTitle("Witness a mortar")
+setDescription("Craft a pestle and mortar.")
+
+addParent("triumph:botania/root")
+setPos(-414,32)
+setAnnounceToChat(false)
+
+hideLines()
+
+criteria = addCriteria("craftedPstle", "triumph:player_crafted_item")
+criteria.setItem(<botania:pestleandmortar>)

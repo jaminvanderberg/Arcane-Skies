@@ -1,0 +1,15 @@
+setIcon(<botania:gaiahead>)
+setTitle("Gaia Guardian")
+setDescription("Summon and kill the Gaia Guardian.")
+
+addParent("triumph:botania/portal")
+setPos(-229,111)
+setAnnounceToChat(false)
+visibleIf("triumph:botania/ironore")
+alwaysHidden()
+setFrameType("CHALLENGE")
+
+//hideLines()
+
+criteria = addCriteria("Gaia", "minecraft:player_killed_entity")
+criteria.setEntityType("botania:doppleganger")

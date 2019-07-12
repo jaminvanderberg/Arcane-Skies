@@ -1,0 +1,12 @@
+setIcon(<botania:flighttiara>)
+setTitle("Take flight")
+setDescription("Craft a flügel tiara.")
+
+addParent("triumph:botania/gaia_guardian")
+setPos(-193,111)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Tiara", "minecraft:inventory_changed")
+criteria.addItem(<botania:flighttiara>)

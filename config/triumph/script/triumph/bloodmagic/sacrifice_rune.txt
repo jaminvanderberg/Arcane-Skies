@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:blood_rune, meta:3>)
+setTitle("It takes sacrifice")
+setDescription("Craft a rune of sacrifice or a rune of self sacrifice.")
+
+addParent("triumph:bloodmagic/blank_rune")
+setPos(-1096,-97)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasSpeedRune", "minecraft:inventory_changed")
+criteria.addItem(<ore:runeSacrifice>);

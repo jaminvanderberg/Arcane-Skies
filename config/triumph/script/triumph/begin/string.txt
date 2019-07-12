@@ -1,0 +1,15 @@
+
+setIcon(<minecraft:string>)
+setTitle("String me along")
+setDescription("Use a silkworm on leaves and let it spread. Harvest the infested leaves to get string.")
+
+addParent("triumph:begin/silkworm")
+
+setPos(-34,30)
+alwaysVisible()
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("hasString", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:string>)

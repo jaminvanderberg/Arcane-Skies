@@ -1,0 +1,13 @@
+setIcon(<agricraft:agri_seed, meta:0, nbt:{"agri_analyzed":1,"agri_seed":"resource:redstodendron_plant","agri_strength":10,"agri_gain":10,"agri_growth":10}>)
+setTitle("Red seeds")
+setDescription("Mutate ferranum and lapender seeds to create red seeds.")
+
+addParent("triumph:agricraft/lapender")
+setPos(-307,91)
+setAnnounceToChat(false)
+visibleIf("triumph:agricraft/root")
+
+//hideLines()
+
+criteria = addCriteria("hasRed", "minecraft:inventory_changed")
+criteria.addItem(<agricraft:agri_seed, meta:0, nbt:{"agri_seed":"resource:redstodendron_plant"}>)

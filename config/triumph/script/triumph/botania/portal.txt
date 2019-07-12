@@ -1,0 +1,13 @@
+setIcon(<botania:livingwood, meta:5>)
+setTitle("Portal to Alfheim")
+setDescription("Follow the guide in the Lexia Botanica ('Alfhomancy' section) to create a portal to Alfheim.")
+
+addParent("triumph:botania/terrasteel")
+setPos(-265,111)
+setAnnounceToChat(false)
+visibleIf("triumph:botania/ironore")
+alwaysHidden()
+
+//hideLines()
+
+criteria = addCriteria("portal", "botania:open_elf_portal")

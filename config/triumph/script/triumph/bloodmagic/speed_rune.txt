@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:blood_rune, meta:1>)
+setTitle("Speed rune")
+setDescription("Craft a speed ruin.")
+
+addParent("triumph:bloodmagic/blank_rune")
+setPos(-1134,-97)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasSpeedRune", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:blood_rune, meta:1>);

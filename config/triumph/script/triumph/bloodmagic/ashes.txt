@@ -1,0 +1,16 @@
+setIcon(<bloodmagic:arcane_ashes>)
+setTitle("Arcane Ashes")
+setDescription("Craft arcane ashes.")
+
+addParent("triumph:bloodmagic/petty")
+setPos(-982,-135)
+hideLines()
+//setFrameType("GOAL")
+visibleIf("triumph:bloodmagic/weak_blood_orb")
+visibleIf("triumph:bloodmagic/blank_slate")
+alwaysHidden()
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasAshes", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:arcane_ashes>);

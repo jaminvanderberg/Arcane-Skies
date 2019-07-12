@@ -1,0 +1,12 @@
+setIcon(<mysticalagriculture:master_infusion_crystal>)
+setTitle("Master infusion crystal")
+setDescription("Craft a master infusion crystal.")
+
+addParent("triumph:mystical/supremium")
+setPos(-538,123)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("Master infusion crystal", "minecraft:inventory_changed")
+criteria.addItem(<mysticalagriculture:master_infusion_crystal>)

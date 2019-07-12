@@ -1,0 +1,13 @@
+setIcon(<agricraft:journal>)
+setTitle("Cross-crops")
+setDescription("You can place crop sticks on the same block twice to make a cross-crop.\nCross-crops will create a new crop based on the parent crops in surrounding blocks.\nParents of the same type can be used to improve seed stats.\n")
+
+setShowToast(false)
+setAnnounceToChat(false)
+setParent("triumph:agricraft/one")
+visibleIf("triumph:agricraft/root")
+
+setPos(-421,53)
+
+criteria = addCriteria("agricraft", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:begin/cropsticks")

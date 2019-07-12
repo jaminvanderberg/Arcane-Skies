@@ -1,0 +1,12 @@
+setIcon(<botania:twigwand>)
+setTitle("Wand of the forest")
+setDescription("Craft a wand of the forest.")
+
+addParent("triumph:botania/livingwood")
+setPos(-228,32)
+setAnnounceToChat(false)
+
+//hideLines()
+
+criteria = addCriteria("craftedWand", "triumph:player_crafted_item")
+criteria.setItem(<botania:twigwand>)
